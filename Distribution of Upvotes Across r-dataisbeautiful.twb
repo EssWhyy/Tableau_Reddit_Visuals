@@ -1,0 +1,1280 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0213.2333                               -->
+<workbook original-version='18.1' source-build='2019.1.0 (20191.19.0213.2333)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (dataisbeautifulmeta)' inline='true' name='federated.0f0qqte13ofpzn1ekt7n10axc3x3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dataisbeautifulmeta' name='excel-direct.0qylxkr08trxq010ag80e0z4afi8'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Swen Yi Tang/Desktop/r-dataisbeaultiful top posts analysis-20200612T115246Z-001/r-dataisbeaultiful top posts analysis/dataisbeautifulmeta.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0qylxkr08trxq010ag80e0z4afi8' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:F841:no:A1:F841:0' header='yes' outcome='6'>
+            <column datatype='string' name='POST TITLE' ordinal='0' />
+            <column datatype='string' name='URL' ordinal='1' />
+            <column datatype='integer' name='KARMA COUNT' ordinal='2' />
+            <column datatype='integer' name='UNIX TIME STAMP' ordinal='3' />
+            <column datatype='datetime' name='POST DATE' ordinal='4' />
+            <column datatype='integer' name='Category' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>POST TITLE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[POST TITLE]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>POST TITLE</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>URL</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[URL]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>URL</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KARMA COUNT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KARMA COUNT]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>KARMA COUNT</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNIX TIME STAMP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UNIX TIME STAMP]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>UNIX TIME STAMP</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POST DATE</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[POST DATE]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>POST DATE</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F841:no:A1:F841:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Karma Count' datatype='integer' name='[KARMA COUNT]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Post Date' datatype='datetime' name='[POST DATE]' role='dimension' type='ordinal' />
+      <column caption='Post Title' datatype='string' name='[POST TITLE]' role='dimension' type='nominal' />
+      <column caption='Unix Time Stamp' datatype='integer' name='[UNIX TIME STAMP]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.481949' measure-ordering='alphabetic' measure-percentage='0.518051' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Distribution of Upvotes/Karma Across 840 Visualisations on r/dataisbeautiful&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (dataisbeautifulmeta)' name='federated.0f0qqte13ofpzn1ekt7n10axc3x3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0f0qqte13ofpzn1ekt7n10axc3x3'>
+            <column datatype='integer' name='[Category]' role='measure' type='quantitative' />
+            <column caption='Karma Count' datatype='integer' name='[KARMA COUNT]' role='measure' type='quantitative' />
+            <column caption='Post Title' datatype='string' name='[POST TITLE]' role='dimension' type='nominal' />
+            <column-instance column='[POST TITLE]' derivation='None' name='[none:POST TITLE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Category]' derivation='Sum' name='[sum:Category:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[KARMA COUNT]' derivation='Sum' name='[sum:KARMA COUNT:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0f0qqte13ofpzn1ekt7n10axc3x3].[none:POST TITLE:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Let&apos;s hear it for the lurkers! The vast majority of Reddit users don&apos;t post or comment. [OC]&quot;</bucket>
+              <bucket>&quot;Where Californians move to when they leave CA [OC]&quot;</bucket>
+              <bucket>&quot;Visualisation of where the world&apos;s guns are [OC].&quot;</bucket>
+              <bucket>&quot;Two Exact Same Post Getting Different Upvotes on Dataisbeautiful, One was Hot Post after 2 hours. Is it Luck or Skill that Affects whether a Post is Successful? [OC]&quot;</bucket>
+              <bucket>&quot;Track and Peak Intensity of US Tornadoes, 1950-2017 [OC]&quot;</bucket>
+              <bucket>&quot;Top Countries by GDP Per Capita Over The Past 200 Years (1800-2016) [OC]&quot;</bucket>
+              <bucket>&quot;Top 4 Countries with Highest CO2 Emissions Per Capita are Middle-Eastern [OC]&quot;</bucket>
+              <bucket>&quot;These visualized sorting methods.&quot;</bucket>
+              <bucket>&quot;Sydney train network - saw one of these for the London Tube a couple of weeks ago, made one for my city [OC]&quot;</bucket>
+              <bucket>&quot;Steph Curry has rated the popcorn for every NBA arena.&quot;</bucket>
+              <bucket>&quot;Rise, fall, and rebound: a history of home prices in 19 American cities [OC]&quot;</bucket>
+              <bucket>&quot;Map of the traffic that came to my server after my post hit the front page [OC]&quot;</bucket>
+              <bucket>&quot;Map of MLB \&quot;Fandom\&quot; Across the U.S. [OC]&quot;</bucket>
+              <bucket>&quot;Live diagram of how many upvotes and comments this post has over time [OC]&quot;</bucket>
+              <bucket>&quot;Life expectancy difference between men and women from various countries over time [OC]&quot;</bucket>
+              <bucket>&quot;I wrote a Python package to do adaptive sampling of functions in parallel [OC]&quot;</bucket>
+              <bucket>&quot;I tested the fastest way to cool down a cup of coffee [OC]&quot;</bucket>
+              <bucket>&quot;How the angle of the sun varies across the world throughout the year [OC]&quot;</bucket>
+              <bucket>&quot;Every Single ½ Hour of My 2018 Recorded [OC]&quot;</bucket>
+              <bucket>&quot;Doing a 50 mile charity ride and my wife wanted to know when to pick me up, so I sent her this [OC]&quot;</bucket>
+              <bucket>&quot;Comparison between the London Tube map and its real geography [OC]&quot;</bucket>
+              <bucket>&quot;Changing distribution of annual average temperature anomalies due to global warming [OC]&quot;</bucket>
+              <bucket>&quot;Animating the legalization of Marijuana in the United States 1995 - 2019 [OC]&quot;</bucket>
+              <bucket>&quot;Animated Track and Intensity of Every Tropical Cyclone since 1950 [OC]&quot;</bucket>
+              <bucket>&quot;Angle of sun and daylight as year progresses showing day, night, poles and whole world [OC]&quot;</bucket>
+              <bucket>&quot;All Formula 1 world champions by their nationality [OC]&quot;</bucket>
+              <bucket>&quot;[Update] We created a tool to visualise the cheapest flight to every city, country, region, or continent in the world on any given dates [Updated with Reddit suggested features] [How to guide in comments] [OC]&quot;</bucket>
+              <bucket>&quot;[OC] More Pigs Than People?&quot;</bucket>
+              <bucket>&quot;[OC] More Cows Than People?&quot;</bucket>
+              <bucket>&quot;[OC] Franchise Earnings Comparison Over 20 Years&quot;</bucket>
+              <bucket>&quot;24 hours of global Internet activity [OC]&quot;</bucket>
+              <bucket>&quot;We at The Economist took a deep dive into our archive of data visualisations to find out where we&apos;ve gone wrong in the past —and how we can improve&quot;</bucket>
+              <bucket>&quot;Visualizing Global Life Expectancy One Country at at Time (from Low to High) [OC]&quot;</bucket>
+              <bucket>&quot;UN Member State flags sorted by average color. [OC]&quot;</bucket>
+              <bucket>&quot;The Average Cost of Marijuana by State&quot;</bucket>
+              <bucket>&quot;Terrorist Incidents since 1970 - Tableau Animation Chart [OC]&quot;</bucket>
+              <bucket>&quot;Social Networks in A Song of Ice and Fire [OC]&quot;</bucket>
+              <bucket>&quot;My first 100 days on r/dataisbeautiful [OC]&quot;</bucket>
+              <bucket>&quot;Measles Cases In The United States, 1984–Present [OC]&quot;</bucket>
+              <bucket>&quot;Latest survey results for religions in the U.S. shows the fastest growing group is now even with Catholics and Evangelicals.&quot;</bucket>
+              <bucket>&quot;It&apos;s getting hotter: Annual average temperatures in Bavaria, Germany [OC]&quot;</bucket>
+              <bucket>&quot;I analysed 1.5 million comments from /r/AmITheAsshole and found that in most cases, the answer is NO! and the conclusion is rarely in any doubt [OC]&quot;</bucket>
+              <bucket>&quot;How reliable is that article you just read? Media Bias Chart&quot;</bucket>
+              <bucket>&quot;How much 5-star hotels cost in the top 100 destinations around the world [OC]&quot;</bucket>
+              <bucket>&quot;Follow-up: I found two identical packs of Skittles, among 468 packs with a total of 27,740 Skittles&quot;</bucket>
+              <bucket>&quot;Facebook made $112 from each North American user in 2018 [OC]&quot;</bucket>
+              <bucket>&quot;Do you want to continue April Fool&apos;s? Try /r/Data_IRL. Data.&quot;</bucket>
+              <bucket>&quot;Chicago released open rideshare trips: Here is a quick comparison to transit ridership [OC]&quot;</bucket>
+              <bucket>&quot;Annual cycle of day length (hours of daylight) throughout the world [OC]&quot;</bucket>
+              <bucket>&quot;[OC] Visualization of 2D Perlin noise being sorted into 1D columns&quot;</bucket>
+              <bucket>&quot;[OC] Top 30 Countries with Most Military Expenditure (1914-2007)&quot;</bucket>
+              <bucket>&quot;[OC] Top 10 Richest People In The World (1995-2019)&quot;</bucket>
+              <bucket>&quot;[OC] The gap in life expectancy in each US state between its longest-living and shortest-living county&quot;</bucket>
+              <bucket>&quot;[OC] Snapchat active users VS active users using stories on other social media platforms&quot;</bucket>
+              <bucket>&quot;[OC] My Tinder experience (Male, 22), also my first post here&quot;</bucket>
+              <bucket>&quot;[OC] Most Common Livestock by County&quot;</bucket>
+              <bucket>&quot;[OC] More Chickens Than People?&quot;</bucket>
+              <bucket>&quot;[OC] Discussion: Are environmentally friendly countries happier?&quot;</bucket>
+              <bucket>&quot;[OC] Atmospheric concentrations of CO2 from 1975 to 2018&quot;</bucket>
+              <bucket>&quot;Word Cloud of the Released Mueller Report [OC]&quot;</bucket>
+              <bucket>&quot;Where in the U.S. Are You Most Likely to Be Audited by the IRS?&quot;</bucket>
+              <bucket>&quot;What&apos;s Really Warming the World?&quot;</bucket>
+              <bucket>&quot;Visual representation of a Formula One race&quot;</bucket>
+              <bucket>&quot;University assignment submission time [OC]&quot;</bucket>
+              <bucket>&quot;Uber Eats now does more payment volume than Lyft&apos;s entire business&quot;</bucket>
+              <bucket>&quot;Top 10 countries with highest work hours in 2017. Mexico is at the top of the list [OC]&quot;</bucket>
+              <bucket>&quot;The Rise and Fall of Jet Airways&quot;</bucket>
+              <bucket>&quot;The global population pyramid: How global demography has changed and what we can expect for the 21st century&quot;</bucket>
+              <bucket>&quot;The Distribution of the Score of \&quot;Data.\&quot; Comments on April First. [OC]&quot;</bucket>
+              <bucket>&quot;Suicide Rates from 1987 to 2015 [OC]&quot;</bucket>
+              <bucket>&quot;Standard vs. Blitz Elo Chess Ratings [OC]&quot;</bucket>
+              <bucket>&quot;Shows with the highest of episodes (1960-2018) [OC]&quot;</bucket>
+              <bucket>&quot;Rich, Dead or Broke? Visualizing Outcome Probabilities during Early Retirement - Interactive [OC]&quot;</bucket>
+              <bucket>&quot;Re-sizing the states to produce a more accurate electoral map (2016) [OC]&quot;</bucket>
+              <bucket>&quot;Rap network analysis in Python: Which rappers work together? [OC]&quot;</bucket>
+              <bucket>&quot;Probability of future presidents of The Church of Jesus Christ of Latter-day Saints [OC]&quot;</bucket>
+              <bucket>&quot;Presidents of the United States [OC]&quot;</bucket>
+              <bucket>&quot;Pay Gap Between Highest and Lowest-Paying College Degrees Almost Double in US [OC]&quot;</bucket>
+              <bucket>&quot;Opioid medication prescriptions in the United States [OC]&quot;</bucket>
+              <bucket>&quot;Number of Wikipedia articles related to each country [OC]&quot;</bucket>
+              <bucket>&quot;New 1977-2016 cost comparison Age 25 - 34. Got tired of all the old information being misleading so I made this new one. Sources and additional information will be in the comments. [OC]&quot;</bucket>
+              <bucket>&quot;NBA Season in 3 minute chunks [OC]&quot;</bucket>
+              <bucket>&quot;My job hunt for the last 6 months as a soon to be graduate. No offers yet [OC]&quot;</bucket>
+              <bucket>&quot;My 12-month job search as a recent graduate in Chemical Engineering [OC]&quot;</bucket>
+              <bucket>&quot;My 8-year-old daughter&apos;s typing progress over the past 6 months [OC]&quot;</bucket>
+              <bucket>&quot;Lexical Distance Among Languages of Europe 2015 [OC]&quot;</bucket>
+              <bucket>&quot;How Time Zones Shape Human Behavior (Washington Post)&quot;</bucket>
+              <bucket>&quot;How my Reddit Post ends up :( [OC]&quot;</bucket>
+              <bucket>&quot;How Much Does Each State Pay In Taxes? (plus other tax-related info) [OC]&quot;</bucket>
+              <bucket>&quot;Heart Rate during 4th Year Seminar in PhD program [OC]&quot;</bucket>
+              <bucket>&quot;Graph of Thrones: I trained an AI algo to read the Game of Thrones books; the AI algo thinks there are four main story arcs [OC]&quot;</bucket>
+              <bucket>&quot;Drawings of Circles from the Google \&quot;Quick, Draw!\&quot; Dataset [OC]&quot;</bucket>
+              <bucket>&quot;Demonstrating the central limit theorem [OC]&quot;</bucket>
+              <bucket>&quot;Cumulative Sales of all plug in electric cars in US. [OC]&quot;</bucket>
+              <bucket>&quot;Co-worker has been working on electricity maps for 30 years. She&apos;s retiring next Friday, so I made this. It will be printed on canvas so she won&apos;t forget what she&apos;s done.[OC]&quot;</bucket>
+              <bucket>&quot;Circle of Death for Countries around Russia, with Highest Alcohol-Induced Deaths [OC]&quot;</bucket>
+              <bucket>&quot;China&apos;s Carbon Dioxide Emissions Exceeds US and EU Combined [OC]&quot;</bucket>
+              <bucket>&quot;All the rivers that flow into the Mississippi.&quot;</bucket>
+              <bucket>&quot;Adding countries to the globe in order of GDP per capita (from low to high) [OC]&quot;</bucket>
+              <bucket>&quot;A band of equal average annual temperature between Europe and North America [OC]&quot;</bucket>
+              <bucket>&quot;[Topic][Open] Open Discussion Monday — Anybody can post a general visualization question or start a fresh discussion!&quot;</bucket>
+              <bucket>&quot;[OC] Voting Patterns By County In The Past Three Presidential Elections&quot;</bucket>
+              <bucket>&quot;[OC] Undergraduate numbers by gender in National University of Singapore&quot;</bucket>
+              <bucket>&quot;[OC] Top 10 Packers in Career Receiving Yards, 1933-2018&quot;</bucket>
+              <bucket>&quot;[OC] Top 10 Most Subscribed Subreddits (2010 - 2019)&quot;</bucket>
+              <bucket>&quot;[OC] Top 10 Countries By Military Spending (1990 - 2017)&quot;</bucket>
+              <bucket>&quot;[OC] Teen birth rates declined in *every* US state between 1991 and 2016&quot;</bucket>
+              <bucket>&quot;[OC] Saudi Arabian oil firm beats Apple, Google and Exxon Mobil to be the most profitable firm in the world&quot;</bucket>
+              <bucket>&quot;[OC] Relevant Word Analysis of the Mueller Report&quot;</bucket>
+              <bucket>&quot;[OC] Reddit Data of One of Reddit&apos;s Most (In)famous Users&quot;</bucket>
+              <bucket>&quot;[OC] Petition to Revoke Article 50 - breakdown by constituency&quot;</bucket>
+              <bucket>&quot;[OC] Number of Native Tree Species per County&quot;</bucket>
+              <bucket>&quot;[OC] NBA - Most Playoff Wins since 2000&quot;</bucket>
+              <bucket>&quot;[OC] My summer job hunt so far&quot;</bucket>
+              <bucket>&quot;[OC] My search for a data analyst job&quot;</bucket>
+              <bucket>&quot;[OC] MOST currencies are under-valued against the US$ Dollar - Russian Rouble is the most undervalued&quot;</bucket>
+              <bucket>&quot;[OC] Game of Thrones Episode Ratings on IMDb&quot;</bucket>
+              <bucket>&quot;[OC] CO2 Emission for Top 7 Countries/Regions selected based on GDP in 2016&quot;</bucket>
+              <bucket>&quot;[OC] Child adoption preferences: gender, race and age&quot;</bucket>
+              <bucket>&quot;[OC] Average face of female k-pop idol&quot;</bucket>
+              <bucket>&quot;xkcd: M87 Black Hole Size Comparison vs. Solar System&quot;</bucket>
+              <bucket>&quot;World&apos;s Greatest Vocal Ranges&quot;</bucket>
+              <bucket>&quot;World GDP trends animated: Country-wise GDP contribution 1960-2017 [OC]&quot;</bucket>
+              <bucket>&quot;Wind Map of United States&quot;</bucket>
+              <bucket>&quot;Why Notre-Dame Was a Tinderbox&quot;</bucket>
+              <bucket>&quot;Which US Airports are the most inefficient, and when should you typically expect the worst flight delay? [OC]&quot;</bucket>
+              <bucket>&quot;Which game of thrones character gets the most cumulative screen time on animated bar chart race&quot;</bucket>
+              <bucket>&quot;Which 2020 Candidates are getting the most media coverage? (Interactive in the comments) [OC]&quot;</bucket>
+              <bucket>&quot;Where would you be if you were on Pangea? (Sorry if repost)&quot;</bucket>
+              <bucket>&quot;Where do people who move to California come from? [OC]&quot;</bucket>
+              <bucket>&quot;Where do immigrants in the US come from? Most common country (excl Mexico) of birth for residents&quot;</bucket>
+              <bucket>&quot;Where did the Californians go?[OC]&quot;</bucket>
+              <bucket>&quot;Where Boeing’s 737 Max Planes Go When They’re Grounded&quot;</bucket>
+              <bucket>&quot;What Qualifies as Middle-Income in Each State&quot;</bucket>
+              <bucket>&quot;What are the top alcohol consuming countries? [OC]&quot;</bucket>
+              <bucket>&quot;What an average day in police stops looks like in Philadelphia, in terms of race, location, and time of day.&quot;</bucket>
+              <bucket>&quot;Viz of Thrones: A game of thrones map and episode data visualization&quot;</bucket>
+              <bucket>&quot;Visualizing the country boundaries as particle system on a dome [OC]&quot;</bucket>
+              <bucket>&quot;Visualizing the 2017 wildfire season [OC]&quot;</bucket>
+              <bucket>&quot;Visualizing ShapeFile trajectory data with DataShader in an Jupyter Notebook (instructional)[OC]&quot;</bucket>
+              <bucket>&quot;Visualization Showing Mercury is Closest Planet to Earth (on average) [OC]&quot;</bucket>
+              <bucket>&quot;Visualization of mean daily temperatures over the past five full years for 12 Canadian cities [OC]&quot;</bucket>
+              <bucket>&quot;Visualising team scoring across the NHL during the 2018-19 season [OC]&quot;</bucket>
+              <bucket>&quot;Violin Plot of Google Play Store App Ratings by Category [OC]&quot;</bucket>
+              <bucket>&quot;Value of Banksy Shredded Art Piece [OC]&quot;</bucket>
+              <bucket>&quot;US Population of each State (1790-1990) [OC]&quot;</bucket>
+              <bucket>&quot;US Late-Night Show Ratings in 2019 [OC]&quot;</bucket>
+              <bucket>&quot;US Federal Grants Going to Pot (Research) [OC]&quot;</bucket>
+              <bucket>&quot;United Arab Emirates and Georgia&apos;s Ease of doing business index rank (2006 -2019) [OC]&quot;</bucket>
+              <bucket>&quot;UN Population Projections: Congo (DRC) may be as populated as the US in 2100 [OC]&quot;</bucket>
+              <bucket>&quot;UN Population estimates: Nigeria will be (almost) twice as populated as the entire EU combined in 2100 [OC]&quot;</bucket>
+              <bucket>&quot;UK population distribution visualised in the style of Unknown Pleasures by Joy Division&quot;</bucket>
+              <bucket>&quot;u/joeycloud made histograms of how often each piano key is pressed in Chopin&apos;s etudes (op25)&quot;</bucket>
+              <bucket>&quot;TurboTax website traffic since 2008, with spikes on tax day [OC]&quot;</bucket>
+              <bucket>&quot;Trying to determine where to spend a long weekend. Still havent decided but its helped! [OC]&quot;</bucket>
+              <bucket>&quot;Trust Levels of News Sources by Ideological Group&quot;</bucket>
+              <bucket>&quot;Tropical cyclone wind speed vs. ocean water temperature [OC]&quot;</bucket>
+              <bucket>&quot;Tree of Reddit Sex Life&quot;</bucket>
+              <bucket>&quot;Travel to the beach takes a lot longer on bank holidays [OC]&quot;</bucket>
+              <bucket>&quot;Transcripts of an internet commentator&apos;s last 80 debates in one image&quot;</bucket>
+              <bucket>&quot;Traits that people say society does or doesn&apos;t value in men or women&quot;</bucket>
+              <bucket>&quot;Tracking nosebleeds by month [OC]&quot;</bucket>
+              <bucket>&quot;Total cost of transportation in America (per mile traveled)&quot;</bucket>
+              <bucket>&quot;Top posts of the first page last month and which countries they mention in r/worldnews [OC]&quot;</bucket>
+              <bucket>&quot;Top Diamond Producers: 7 out of 10 are African [OC]&quot;</bucket>
+              <bucket>&quot;Top 20 Most Popular Male Names from 1880 to 2017 [OC]&quot;</bucket>
+              <bucket>&quot;Top 15 most used GPUs from Steam Hardware Survey&quot;</bucket>
+              <bucket>&quot;Top 15 Cricketers Ranked by Total Test Runs (1969-2019)&quot;</bucket>
+              <bucket>&quot;This video of baby names in the US states&quot;</bucket>
+              <bucket>&quot;This map shows where each state&apos;s largest immigrant group comes from, excluding Mexico.&quot;</bucket>
+              <bucket>&quot;This map shows most common country of birth for foreign residents in each US state&quot;</bucket>
+              <bucket>&quot;There’s an iron curtain dividing Europe into safe and dangerous places to breathe&quot;</bucket>
+              <bucket>&quot;The US Census Dept has created a bracket game to test your city population knowledge.&quot;</bucket>
+              <bucket>&quot;The Stages of Relationships, Distributed&quot;</bucket>
+              <bucket>&quot;The Stages of Relationships Towards Marriage&quot;</bucket>
+              <bucket>&quot;The Simpson&apos;s IMDB Ratings Over Time [OC]&quot;</bucket>
+              <bucket>&quot;The share of Americans not having sex has reached a record high&quot;</bucket>
+              <bucket>&quot;The prevalence of measles, polio, etc. in the US over time&quot;</bucket>
+              <bucket>&quot;The most valuable football clubs in the world, since 2005 [OC]&quot;</bucket>
+              <bucket>&quot;The Most Populous Cities in the World (A Bar Chart Race)&quot;</bucket>
+              <bucket>&quot;The Monty Hall Problem: Why it is always correct to SWITCH when given the choice (info in comments) [OC]&quot;</bucket>
+              <bucket>&quot;The King of ASMR: WordCloud of Bob Ross (The Joy of Painting - 38 episodes)[OC]&quot;</bucket>
+              <bucket>&quot;The global population pyramid. From 1950 to now. And the UN projections for our century.&quot;</bucket>
+              <bucket>&quot;The faces of congress - an interactive display showing gender and party [OC]&quot;</bucket>
+              <bucket>&quot;The average NBA team is now worth more than the average MLB team [OC]&quot;</bucket>
+              <bucket>&quot;Swinginess [OC]&quot;</bucket>
+              <bucket>&quot;Swainson&apos;s hawk age distribution over 30 years of research [OC]&quot;</bucket>
+              <bucket>&quot;Survey: Online Shopping While Drunk Is Worth Billions To The U.S. Economy [Infographic]&quot;</bucket>
+              <bucket>&quot;Summer 2019 Internship Hunt Visualization [OC]&quot;</bucket>
+              <bucket>&quot;State religiosity and organ donor habits [OC]&quot;</bucket>
+              <bucket>&quot;Share of Australia’s wealth by household wealth decile | The top 1\% holds as much wealth as the bottom 70\% of all households&quot;</bucket>
+              <bucket>&quot;See Which Sections of the Mueller Report Were Redacted&quot;</bucket>
+              <bucket>&quot;See how the rest of the world lives: Earth represented as a street ordered by income, comparing photos of everyday items (bed, toothbrush, toilet, medicine cabinet…)&quot;</bucket>
+              <bucket>&quot;Sankey Of Significant Brexit Voting - Interactive Link In Comments [OC]&quot;</bucket>
+              <bucket>&quot;RuPaul&apos;s Drag Race S01-S10 Champion Performance Visualization [OC]&quot;</bucket>
+              <bucket>&quot;Rides from french users of the rideshare app BlaBlaCar [OC]&quot;</bucket>
+              <bucket>&quot;Religion in America - Religious Landscape Study&quot;</bucket>
+              <bucket>&quot;Relationship insights through analyzing a year worth of WhatsApp messages&quot;</bucket>
+              <bucket>&quot;Relationship between average UK monthly temperature and Google Search Activity for \&quot;Climate Change\&quot;[OC]&quot;</bucket>
+              <bucket>&quot;Refugees per 1000 people in 1990-2017 [OC]&quot;</bucket>
+              <bucket>&quot;Recorded minute details of my life for a little while and tried to model whether or not Id be productive or exercise depending on how the day is going. Eventually, I had a few friends do the same to feed more data into the models [OC] [edit] Put wrong picture earlier&quot;</bucket>
+              <bucket>&quot;Real-time Air Pollution Map&quot;</bucket>
+              <bucket>&quot;Real stock market returns over time [OC]&quot;</bucket>
+              <bucket>&quot;Ranking Top Netflix Movies By Viewers&quot;</bucket>
+              <bucket>&quot;Radon map of the United States: predicted county median concentration&quot;</bucket>
+              <bucket>&quot;Radial 2019 NCAA Bracket [OC]&quot;</bucket>
+              <bucket>&quot;Racial self-identification of Latin American survey respondents, 2017 [OC]&quot;</bucket>
+              <bucket>&quot;Quarterbacks in the NFL Draft 1967-Present [OC]&quot;</bucket>
+              <bucket>&quot;Public Outrage Doesn&apos;t Matter: some of the most popular petitions on the Internet and whether their causes succeeded [OC]&quot;</bucket>
+              <bucket>&quot;Protein over carbohydrates to GDP per capita between countries [OC]&quot;</bucket>
+              <bucket>&quot;Programming Language Trends Over Time. [OC]&quot;</bucket>
+              <bucket>&quot;Positions Taken in the NFL Draft 1936-2018 [OC]&quot;</bucket>
+              <bucket>&quot;Population Growth since the 1950s: Asia remains highly populous [OC]&quot;</bucket>
+              <bucket>&quot;Population Growth across Resident Types in Singapore [OC]&quot;</bucket>
+              <bucket>&quot;Plotting US traffic fatalities (and finding errors in Wikipedia data!) [OC]&quot;</bucket>
+              <bucket>&quot;Planetary radiation, the \&quot;Greenhouse Effect\&quot; of CO2 (and H2O), and global warming in a simple climate model [OC]&quot;</bucket>
+              <bucket>&quot;Percentage of the 2015 electorate that have signed the Revoke Article 50 petition, as of 25/03/19 [OC]&quot;</bucket>
+              <bucket>&quot;Percentage of Jews in American States [OC]&quot;</bucket>
+              <bucket>&quot;NYC Ancestry [OC]&quot;</bucket>
+              <bucket>&quot;Number of Starbucks Stores in each US State [OC]&quot;</bucket>
+              <bucket>&quot;Number of non US/Korean NATO troops who were KIA in The Korean War [OC]&quot;</bucket>
+              <bucket>&quot;Number of McDonalds restaurants worldwide between 2007-2017 [OC]&quot;</bucket>
+              <bucket>&quot;Nudity per Season of Game of Thrones [OC]&quot;</bucket>
+              <bucket>&quot;Nuclear Power Cheapest Energy Source&quot;</bucket>
+              <bucket>&quot;NSFW Clusters of porn [OC]&quot;</bucket>
+              <bucket>&quot;Not very beautiful, but this chart shows the frequency of two letter combinations in the most frequent 10,000 English words [OC]&quot;</bucket>
+              <bucket>&quot;Noise complaints detected in Twitter using the ML model I built during my PhD research http://dx.doi.org/10.1016/j.scitotenv.2018.12.071 [OC]&quot;</bucket>
+              <bucket>&quot;Nicolas Cage Film Career [OC]&quot;</bucket>
+              <bucket>&quot;News sites sorted by the ideology of the members of Congress that share them&quot;</bucket>
+              <bucket>&quot;New York City Drug Crimes [OC]&quot;</bucket>
+              <bucket>&quot;New study finds simple way to inoculate teens against junk food marketing when tapping into teens’ desire to rebel, by framing corporations as manipulative marketers trying to hook consumers on addictive junk food for financial gain. Teenage boys cut back junk food purchases by 31\%.&quot;</bucket>
+              <bucket>&quot;New player accounts in PlayStation Network - historical graph [OC]&quot;</bucket>
+              <bucket>&quot;New artist I listened too - showing how streaming music has broadened my horizon [OC]&quot;</bucket>
+              <bucket>&quot;Netflix earns more money in *3 months* than the box office sales of any movie in history&quot;</bucket>
+              <bucket>&quot;NCAA Tournament Radial Bracket (crosspost from r/collegebasketball)&quot;</bucket>
+              <bucket>&quot;NBA Points Comparison At The Same Age | Horizontal Bar Graph Growing over Time Intervals [OC] source: basketball-reference.com&quot;</bucket>
+              <bucket>&quot;NBA 3 Pointers by individual players each season [OC]&quot;</bucket>
+              <bucket>&quot;National rates of new measles cases [OC]&quot;</bucket>
+              <bucket>&quot;My Summer Internship Hunt as a Junior in Structural Engineering [OC]&quot;</bucket>
+              <bucket>&quot;My spotify streaming habits clearly show when I cycle to uni and back.&quot;</bucket>
+              <bucket>&quot;My Rugby season in Gym numbers [OC]&quot;</bucket>
+              <bucket>&quot;My routes to the top 10 websites by traffic [OC]&quot;</bucket>
+              <bucket>&quot;My PhD Application Journey Visualized [OC]&quot;</bucket>
+              <bucket>&quot;My House Hunting Process as a University Student in Vancouver, Canada [OC]&quot;</bucket>
+              <bucket>&quot;My heart rate throughout the Texas Tech v Michigan St. game last night [OC]&quot;</bucket>
+              <bucket>&quot;My Experiences with Online Dating for 1 Month [OC]&quot;</bucket>
+              <bucket>&quot;My Current College Results [OC]&quot;</bucket>
+              <bucket>&quot;My [OC] 4-month job hunt journey as an engineer in Boston.&quot;</bucket>
+              <bucket>&quot;Mueller Report Word Cloud [OC]&quot;</bucket>
+              <bucket>&quot;Mueller Report Word Cloud - rstudio [OC]&quot;</bucket>
+              <bucket>&quot;Most Teachers Don&apos;t Teach Climate Change; 4 In 5 Parents Wish They Did&quot;</bucket>
+              <bucket>&quot;Modern Slavery in the 21st Century: Is this surprising to you? [OC]&quot;</bucket>
+              <bucket>&quot;Mercury is closer to the Earth than Venus is (on average) [OC]&quot;</bucket>
+              <bucket>&quot;Map shows how religion spread around the world.&quot;</bucket>
+              <bucket>&quot;Map of the Cypriot Presidential Election 2018 - Second Round [OC]&quot;</bucket>
+              <bucket>&quot;Life expectancy vs. health expenditure&quot;</bucket>
+              <bucket>&quot;Jeff Bezos&apos; divorce settlement is over 30 times larger than the second largest divorce settlement of all time.&quot;</bucket>
+              <bucket>&quot;Is your job really worth it?! [OC]&quot;</bucket>
+              <bucket>&quot;Is it Safe to Assume an 11.41\% return for my Stock Porfolio? [OC]&quot;</bucket>
+              <bucket>&quot;Internet Freedom 2018 [OC]&quot;</bucket>
+              <bucket>&quot;Internet connection performance in a students dormitory [OC]&quot;</bucket>
+              <bucket>&quot;In the UK, Tory constituencies tend to be responding more positively to the current \&quot;Revoke Article 50\&quot; petition than Labour [OC]&quot;</bucket>
+              <bucket>&quot;Illegal Immigrantion at the Southern Border&quot;</bucket>
+              <bucket>&quot;I&apos;ve sent mails to 135 professors to intern abroad. [OC]&quot;</bucket>
+              <bucket>&quot;I analyzed millions of Florida voter records and found that black women in almost every age group voted at higher rates than white men and women in the state&apos;s 2018 midterm election. [OC]&quot;</bucket>
+              <bucket>&quot;I analyzed about 60,000 comments from top posts in r/linux and r/linuxmasterrace to find out how often people mention operating systems -and Microsoft- and this was the result (rip BSD users) [OC]&quot;</bucket>
+              <bucket>&quot;Hunger and Undernourishment&quot;</bucket>
+              <bucket>&quot;Human beings listed by votes they&apos;ve received in US Presidential Elections [OC]&quot;</bucket>
+              <bucket>&quot;How Top Countries based on GDP over years changed - How to make animated bars in R [OC]&quot;</bucket>
+              <bucket>&quot;How much 5-star hotels cost in North America vs Europe vs Asia [OC]&quot;</bucket>
+              <bucket>&quot;How many cups of coffee would you need to drink to receive a fatal dose of caffeine? [OC]&quot;</bucket>
+              <bucket>&quot;How Many Beers Can You Buy Each Day With an Average Salary? [OC]&quot;</bucket>
+              <bucket>&quot;How living on the wrong side of a time zone can be hazardous to your health&quot;</bucket>
+              <bucket>&quot;How I spend my time allocated for homework \&quot;Wisely\&quot; [OC]&quot;</bucket>
+              <bucket>&quot;How Does Your State Make Electricity? - A nice series of graphs from NYT&quot;</bucket>
+              <bucket>&quot;How Does Your State Make Electricity?&quot;</bucket>
+              <bucket>&quot;How Does Political Party Affiliation Impact Confidence in the Presidency? [OC]&quot;</bucket>
+              <bucket>&quot;How a typical NBA game goes for each team this season [OC]&quot;</bucket>
+              <bucket>&quot;Heat Map Shows Relationship Between Traffic-Related Air Pollution and Childhood Asthma&quot;</bucket>
+              <bucket>&quot;Growth of Pittsburgh 1750-2019 [OC]&quot;</bucket>
+              <bucket>&quot;Graph Visualization of Countries and Neighbors, Colored by Continent [OC]&quot;</bucket>
+              <bucket>&quot;Grams of protein per dollar in various vegan, vegetarian, and meat products [OC]&quot;</bucket>
+              <bucket>&quot;Grade disparity between different sections of the same course at The University of Illinois [OC]&quot;</bucket>
+              <bucket>&quot;GOT: Screen Time per Character&quot;</bucket>
+              <bucket>&quot;Go figure, starting a game of War with 4 Aces gives a massive advantage [OC]&quot;</bucket>
+              <bucket>&quot;Global real-time radar of storm structure, air currents, lightning strikes, and over a dozen other atmospheric condition models&quot;</bucket>
+              <bucket>&quot;German party positions (Left-Right, Libertarian-Authoritarian), 1999 - 2017 [OC]&quot;</bucket>
+              <bucket>&quot;Geolocating SSH Hackers In Real-Time [OC]&quot;</bucket>
+              <bucket>&quot;Game of Thrones: Screen Time per Character, per Episode (Seasons 1-7) - bar chart race&quot;</bucket>
+              <bucket>&quot;Game of Thrones kill networks [OC]&quot;</bucket>
+              <bucket>&quot;Game of Thrones effect on baby names in the US? [OC]&quot;</bucket>
+              <bucket>&quot;Game of Thrones character networks [OC]&quot;</bucket>
+              <bucket>&quot;Game of Thrones airdates and Google search trends for HBO Go/HBO Now [OC]&quot;</bucket>
+              <bucket>&quot;From ClimateWatch and WRI Climate: The U.S. remains the largest carbon polluter from 1850-2016&quot;</bucket>
+              <bucket>&quot;Four Possible Futures of Global Temperatures&quot;</bucket>
+              <bucket>&quot;Four Possible Climate Futures.&quot;</bucket>
+              <bucket>&quot;Formula1 driver Google Search trends since 2010 [OC]&quot;</bucket>
+              <bucket>&quot;Formula 1 World Constructors&apos; Champions by nationality [OC]&quot;</bucket>
+              <bucket>&quot;Five of the Best &amp; Worst charities [OC] from Instagram @Sportschart&quot;</bucket>
+              <bucket>&quot;First day fundraising by 2020 Democratic candidates by money AND donors [OC]&quot;</bucket>
+              <bucket>&quot;First attempt at Info-graphic [OC]&quot;</bucket>
+              <bucket>&quot;Film Dialogue Broken Down by Gender and Age&quot;</bucket>
+              <bucket>&quot;Fifty Shades Baby Boom [OC]&quot;</bucket>
+              <bucket>&quot;Every character from the Forgotten Realms universe (~300 books) - Extracted and Mapped by an AI [OC]&quot;</bucket>
+              <bucket>&quot;EVE Online (MMORPG) Wormhole activity visualisation [OC]&quot;</bucket>
+              <bucket>&quot;Erie County, NY Property Values [OC]&quot;</bucket>
+              <bucket>&quot;EM algorithm with 4 dimensional GMM on Iris flower dataset [OC]&quot;</bucket>
+              <bucket>&quot;Electric Vehicle Sales In the United States [OC]&quot;</bucket>
+              <bucket>&quot;Economist : Mistakes, we’ve drawn a few&quot;</bucket>
+              <bucket>&quot;Economic growth does not guarantee rising happiness [Visualisation by The Economist]&quot;</bucket>
+              <bucket>&quot;Earthquakes from 1900-2019 - Timelapse&quot;</bucket>
+              <bucket>&quot;Distribution of Bears in a 5lbs Bag of Haribo Goldbears [OC]&quot;</bucket>
+              <bucket>&quot;Directory tree visualizer [OC]&quot;</bucket>
+              <bucket>&quot;Debt to GDP ratio for countries in Europe, 2017 [OC]&quot;</bucket>
+              <bucket>&quot;Data science jobs at 2,500 of the world&apos;s top companies [OC]&quot;</bucket>
+              <bucket>&quot;Data makes everything fun&quot;</bucket>
+              <bucket>&quot;Cumulative Visualization of Trump&apos;s False or Misleading Statements since taking Office [OC]&quot;</bucket>
+              <bucket>&quot;Create beautiful and interactive Google Trends globe visualizations with ease [OC]&quot;</bucket>
+              <bucket>&quot;Country with highest rate of suicide per 100 000 people [OC]&quot;</bucket>
+              <bucket>&quot;Cost of Brewing vs. Buying Coffee (Thought you guys might enjoy this as much as I did)&quot;</bucket>
+              <bucket>&quot;Can anyone tell me what animated software these stats are created from ?&quot;</bucket>
+              <bucket>&quot;Calling out to all the Pizza Lovers out there! [OC]&quot;</bucket>
+              <bucket>&quot;California Hospital Association Inadvertently Shows How Hospital Costs Have Gone Up 12x (Inflation for the Period is only 3x)&quot;</bucket>
+              <bucket>&quot;C /= Correct? [OC]&quot;</bucket>
+              <bucket>&quot;Building up the world country-by-country - animation [OC]&quot;</bucket>
+              <bucket>&quot;Browse reddit posts and comments through this interactive charts. Click on post titles to get to post chart. [OC]&quot;</bucket>
+              <bucket>&quot;Breakdown of Motives for Cyber Attacks in 2018 [OC]&quot;</bucket>
+              <bucket>&quot;Bouquet Barcodes: The average colour of over 10,000 flower bouquets sold per month, over a year [OC]&quot;</bucket>
+              <bucket>&quot;Board games: quantity and quality, 1980 - 2018 [OC]&quot;</bucket>
+              <bucket>&quot;Bar Chart Race – the countries with the largest CO2 emissions in the world from 1850 to 2017&quot;</bucket>
+              <bucket>&quot;Average male height in major Asian cities by year of birth (1920-2000) [OC]&quot;</bucket>
+              <bucket>&quot;Avengers Infinity War Screen Time [OC]&quot;</bucket>
+              <bucket>&quot;Annual average GDP per capita growth rate, 1990-2017. Change in standard of living by country [OC]&quot;</bucket>
+              <bucket>&quot;Animation using GPS tracking data to map Chinese research vessels crossing the Pacific Ocean [OC]&quot;</bucket>
+              <bucket>&quot;Andrew Yang and Pete Buttigieg Have Blown up on Twitter, and in Betting Markets [OC]&quot;</bucket>
+              <bucket>&quot;Analyzing Market Share of U.S. Airlines&quot;</bucket>
+              <bucket>&quot;An Interactive Introduction to Fourier Transforms&quot;</bucket>
+              <bucket>&quot;An Interactive Introduction to Artificial Intelligence (AI)&quot;</bucket>
+              <bucket>&quot;An amusing and crafty flags visualisation from r/vexillology.&quot;</bucket>
+              <bucket>&quot;Amount of Runeacape communities in our school. [OC]&quot;</bucket>
+              <bucket>&quot;All you need to know about the 2019 Nigerian presidential election [OC]&quot;</bucket>
+              <bucket>&quot;All the world&apos;s major religions in one map&quot;</bucket>
+              <bucket>&quot;Age, Service Time, Salary, and Projected WAR for the 2019 MLB Season - League-Wide &amp; Team-by-Team [OC]&quot;</bucket>
+              <bucket>&quot;Age, Gender, Court Type, and Tennis Grand Slams [OC]&quot;</bucket>
+              <bucket>&quot;Academy Award for Best Actor Winners by Nationality [OC]&quot;</bucket>
+              <bucket>&quot;Academy Award Best Actor vs Best Actress age from 1937 to 2019. [OC]&quot;</bucket>
+              <bucket>&quot;Academic landscape of ethnomusicology [OC]&quot;</bucket>
+              <bucket>&quot;A Year of Scooters in Austin, TX [OC]&quot;</bucket>
+              <bucket>&quot;A visualization showing a Russian money laundering scheme that utilized Swedebank and Danske Bank. Source comment and another comment giving translations to English will be posted in the comments here.&quot;</bucket>
+              <bucket>&quot;A text analyses of Pa. State Rep. Stephanie Borowicz&apos;s controversial prayer [OC]&quot;</bucket>
+              <bucket>&quot;A Sankey Diagram of my Recent Job Search [OC]&quot;</bucket>
+              <bucket>&quot;A data visualisation of the indicative votes in the UK Parliament last night [OC]&quot;</bucket>
+              <bucket>&quot;A Brief Overview of India&apos;s languages [OC]&quot;</bucket>
+              <bucket>&quot;A breakdown of the 100 most viewed episodes of Good Mythical Morning by season [OC]&quot;</bucket>
+              <bucket>&quot;[Request] Can someone make a Subreddit Interconnectivity Map?&quot;</bucket>
+              <bucket>&quot;[OC]Most frequent words in /r/dataisbeautiful&apos;s top 1000 posts&apos; title&quot;</bucket>
+              <bucket>&quot;[OC] XP requirements to level by D&amp;D edition&quot;</bucket>
+              <bucket>&quot;[OC] World Corruption in the 21st Century&quot;</bucket>
+              <bucket>&quot;[OC] What are the odds of a completing a Perfect Game in the MLB?&quot;</bucket>
+              <bucket>&quot;[OC] We left a honeypot running on the internet for nearly a month. Here is a cloud of the most common attempted passwords.&quot;</bucket>
+              <bucket>&quot;[OC] We are a couple (24M, 22F) that records our sex acts on Google Sheets and does quarterly reviews! 2019 Q1 results are here! -39.98\% change in trying new things, 61.54\% orgasm rate (Of that, 69.6\% M and 26.1\% F) Spreadsheet can be found in comment. Feel free to give suggestions on data!&quot;</bucket>
+              <bucket>&quot;[OC] Visualizing Yield Curve Trends&quot;</bucket>
+              <bucket>&quot;[OC] updated: Life expectancy in every US state and county in 2014&quot;</bucket>
+              <bucket>&quot;[OC] U.S. Counties and Wind Harvesting Efficiency&quot;</bucket>
+              <bucket>&quot;[OC] Types of trash discarded at a Starbucks outlet&quot;</bucket>
+              <bucket>&quot;[OC] Trending Interest for Top 10 Avengers: Endgame characters in FB&quot;</bucket>
+              <bucket>&quot;[OC] Tree of Reddit Sex Life&quot;</bucket>
+              <bucket>&quot;[OC] Travel expenses during 3 months backpacking through the balkans (And a bit of western/central europe)&quot;</bucket>
+              <bucket>&quot;[OC] Top Three Most Populated Counties in NY State Unchanged since 1970s!&quot;</bucket>
+              <bucket>&quot;[OC] Top Ten World Football Elo Ratings since 1910&quot;</bucket>
+              <bucket>&quot;[OC] Top selling consoles. PS2 remains as the top selling console since 2004.&quot;</bucket>
+              <bucket>&quot;[OC] Top Internet Companies&quot;</bucket>
+              <bucket>&quot;[OC] Top 25 F1 Drivers with most wins over time from 1950 to 2019 (after 999 races)&quot;</bucket>
+              <bucket>&quot;[OC] Top 15 Countries with Most Military Expenditure (1960-2017)&quot;</bucket>
+              <bucket>&quot;[OC] Top 15 Countries with Most CO2 Emissions (1962-2014)&quot;</bucket>
+              <bucket>&quot;[OC] Top 15 Countries by Percent of Population Using the Internet (1990-2016)&quot;</bucket>
+              <bucket>&quot;[OC] Top 15 Countries by Economic Freedom (1996-2019)&quot;</bucket>
+              <bucket>&quot;[OC] Top 15 Cities With the MOST Inhabitants (1950-2030)&quot;</bucket>
+              <bucket>&quot;[OC] Top 10 Mobile Brands Market Share (2010.03-2019.02)&quot;</bucket>
+              <bucket>&quot;[OC] Top 10 Countries by Fatalities from Terrorist Attacks (1970-2017)&quot;</bucket>
+              <bucket>&quot;[OC] Top 10 Countries based on Instant Noodle Consumption per Capita 2017&quot;</bucket>
+              <bucket>&quot;[OC] To the guy who posted about AITA sub. I wrote a script that connects to Reddit and Google API. Pulls the top 20 hot posts from the AITA subreddit counts the votes and pushes that info to google sheets – where it gets visualized. Updated every 1 hr. Tools: Python, Gsheets, Visual Code, AWS VM&quot;</bucket>
+              <bucket>&quot;[OC] Tinder Matches for three Artificial Intelligence Generated Human Faces, per 1K swipes&quot;</bucket>
+              <bucket>&quot;[OC] The teen birth rate in San Francisco vs. every other county in California (2004-2015)&quot;</bucket>
+              <bucket>&quot;[OC] The sum of the monthly fatal police shooting in the US is consistently near 1000 (for 4 years)&quot;</bucket>
+              <bucket>&quot;[OC] The relationship of wealth and homicide rate, by region&quot;</bucket>
+              <bucket>&quot;[OC] The point cloud on the left is a person. The point cloud on the right is a guitar.*&quot;</bucket>
+              <bucket>&quot;[OC] The number of pages written per day in my journal so far.&quot;</bucket>
+              <bucket>&quot;[OC] The mean time between fatalities by various sources of energy&quot;</bucket>
+              <bucket>&quot;[OC] The brands of lipstick and lip gloss used most often in the United States in 2018&quot;</bucket>
+              <bucket>&quot;[OC] Suicide rates for men and women in California since 1999, by age group&quot;</bucket>
+              <bucket>&quot;[OC] Starcraft II: Aggression in WCS America&quot;</bucket>
+              <bucket>&quot;[OC] Singapore Population Growth&quot;</bucket>
+              <bucket>&quot;[OC] Simulating Stochastic Diffusion of Water Vapour in Air&quot;</bucket>
+              <bucket>&quot;[OC] Sexual swearing in Game of Thrones, inspired by something u/AltShiftX said in a recent video&quot;</bucket>
+              <bucket>&quot;[OC] Search Interest for avengers over time&quot;</bucket>
+              <bucket>&quot;[OC] Sales in Lotteries in the US by States (2016)&quot;</bucket>
+              <bucket>&quot;[OC] RGB color channels of an image being sorted individually by intensity and recombined.&quot;</bucket>
+              <bucket>&quot;[OC] Revenue from footwear segment of Nike, Adidas and Puma from 2010 to 2018 (in billion U.S. dollars)&quot;</bucket>
+              <bucket>&quot;[OC] Relative Search Volume for Top Online Games (2004-Present)&quot;</bucket>
+              <bucket>&quot;[OC] Ranking Countries / Teams by amount of Winter Olympic Medals&quot;</bucket>
+              <bucket>&quot;[OC] Poverty Rates by Race in the United States&quot;</bucket>
+              <bucket>&quot;[OC] Positions Taken in the NFL Draft 1936-2018 (alternate design)&quot;</bucket>
+              <bucket>&quot;[OC] Plotting Tweets&apos; Followers v. Friends&quot;</bucket>
+              <bucket>&quot;[OC] Percentage of Third Party Votes and Write-Ins in Presidential Elections (2000-2016)&quot;</bucket>
+              <bucket>&quot;[OC] Per Capita Meat Consumption - India leads the way among the major economies&quot;</bucket>
+              <bucket>&quot;[OC] Penalty Trends in the NFL&quot;</bucket>
+              <bucket>&quot;[OC] NYC Water Consumption over the years from 1979-2017&quot;</bucket>
+              <bucket>&quot;[OC] Nobel Laureates by the first letter of their names&quot;</bucket>
+              <bucket>&quot;[OC] NFL Draft Picks and Capital Used by Position 1936-2018&quot;</bucket>
+              <bucket>&quot;[OC] NBA Championship Droughts&quot;</bucket>
+              <bucket>&quot;[OC] Native Californians as a \% of state populations&quot;</bucket>
+              <bucket>&quot;[OC] My ridiculous Summer 2019 Internship search (mechanical engineering sophomore)&quot;</bucket>
+              <bucket>&quot;[OC] My Average Hours of Sleep Per Month from January 2015 - March 2019 (more info in comments)&quot;</bucket>
+              <bucket>&quot;[OC] Most Popular Cars on Singapore Roads from 2005-2018&quot;</bucket>
+              <bucket>&quot;[OC] Money pledged for Cyclone Idai recovery vs. Notre Dame rebuilding&quot;</bucket>
+              <bucket>&quot;[OC] MLB Opening Day Payrolls 2000-2019&quot;</bucket>
+              <bucket>&quot;[OC] Mass shootings in the U.S 1982-2019 Fatalities and the race of the shooter&quot;</bucket>
+              <bucket>&quot;[OC] Marriage success by countries: Syria among the top&quot;</bucket>
+              <bucket>&quot;[OC] Map of Places Mentioned in Red Hot Chili Peppers Songs&quot;</bucket>
+              <bucket>&quot;[OC] Living in a cheap second (or third) rate Nigerian town with a lot of \&quot;black tax\&quot; (description in comments).&quot;</bucket>
+              <bucket>&quot;[OC] Life expectancy in San Francisco County (1980-2014)&quot;</bucket>
+              <bucket>&quot;[OC] Jupiter&apos;s distance from earth compared with angular diameter over a 3 year period&quot;</bucket>
+              <bucket>&quot;[OC] Is Singapore a Garden City?&quot;</bucket>
+              <bucket>&quot;[OC] Intersection of MP&apos;s ballots cast in indicative votes on Brexit, UK parliament 2019-03-27&quot;</bucket>
+              <bucket>&quot;[OC] Interest in programming languages breaks every Christmas. Furthermore: Python overtakes Java as the most googled programming language.&quot;</bucket>
+              <bucket>&quot;[OC] Instant Noodle Consumption in some SEA Countries&quot;</bucket>
+              <bucket>&quot;[OC] I&apos;m Back and Finally Found a Job! 275 Apps + 7 Months Later&quot;</bucket>
+              <bucket>&quot;[OC] I tracked my body temperature while having flu. Missing datapoints are during the night&quot;</bucket>
+              <bucket>&quot;[OC] I separated Stephen King&apos;s novel Misery into sentences and loaded it into R-Studio. Here&apos;s every sentence&apos;s length, in order, with average (red), standard deviations (blue), and exponential smoothing (yellow, alpha = .07 smoothing) as if it were a time-series.&quot;</bucket>
+              <bucket>&quot;[OC] I made a racing bar chart for the Bundesliga teams and their add up expenses for new players. Source: transfermarkt.de | Tool: flourish.studio&quot;</bucket>
+              <bucket>&quot;[OC] I made a dataset of everything I bought from my last 10 trips to the grocery store, here are the correlations between items&quot;</bucket>
+              <bucket>&quot;[OC] I created a tool to compare apartment prices in two cities, with projections&quot;</bucket>
+              <bucket>&quot;[OC] Hyperlocal price index and visualization of house prices in Helsinki, Finland 2007-2019. Can you spot the word-wide financial crisis from the video?&quot;</bucket>
+              <bucket>&quot;[OC] How much Time I spend every day using Chrome&quot;</bucket>
+              <bucket>&quot;[OC] How many times do we Google \&quot;Google\&quot; ?&quot;</bucket>
+              <bucket>&quot;[OC] How many of these superstitions do you believe in?&quot;</bucket>
+              <bucket>&quot;[OC] How likely are you going to be a president based on your star sign?&quot;</bucket>
+              <bucket>&quot;[OC] How has McDonald performed since 2006?&quot;</bucket>
+              <bucket>&quot;[OC] Hourly speedtests on a 40Mbps VDSL line&quot;</bucket>
+              <bucket>&quot;[oc] Hotspot analysis of Reported Accipiter Observations in the United States&quot;</bucket>
+              <bucket>&quot;[OC] Historic F1 Races Visualised - The 2011 Canadian Grand Prix&quot;</bucket>
+              <bucket>&quot;[OC] Heatmap showing Pokémon type effectiveness of all 29,241 possible combinations&quot;</bucket>
+              <bucket>&quot;[OC] Heat map of the number of fatal police shootings in the US&quot;</bucket>
+              <bucket>&quot;[OC] Happy Easter! April, 21 is among the 10\% latest possible dates for this Christian holiday&quot;</bucket>
+              <bucket>&quot;[OC] Happiness scores - 49 days comparison with my SO&quot;</bucket>
+              <bucket>&quot;[OC] Group messages over time for three groups during a 3 month long project.&quot;</bucket>
+              <bucket>&quot;[OC] Graphics depicting Game of Thrones deaths and chances of survival for main characters&quot;</bucket>
+              <bucket>&quot;[OC] Genre of Academy Award Movies&quot;</bucket>
+              <bucket>&quot;[OC] Game of Thrones inspired map showing film locations&quot;</bucket>
+              <bucket>&quot;[OC] Game of Thrones Google Search Popularity - Season start and ends are always more popular&quot;</bucket>
+              <bucket>&quot;[OC] Friends word statistics by main roles&quot;</bucket>
+              <bucket>&quot;[OC] Frequency of youths playing National Lottery in Great Britain in 2018, by reason&quot;</bucket>
+              <bucket>&quot;[OC] Frequencies of alphabetic key presses while writing a big python source.&quot;</bucket>
+              <bucket>&quot;[OC] Feet swell more in the summer heat, but this is also true for other body parts, as shown by GoogleTrends search data. Why is this important? Doctors assess swelling as part of routine examination, but swelling may differ purely due to time of year. Relevant for people with arthritis!&quot;</bucket>
+              <bucket>&quot;[OC] Evolution of Las Vegas Strip&apos;s Casino Game Revenues (1985-2018)&quot;</bucket>
+              <bucket>&quot;[OC] Every RI Vehicle Related Fatality 1980-2017&quot;</bucket>
+              <bucket>&quot;[OC] Estimations of how employment will change in the average economy as GDP increases (based on regressions of GDP and employment share across 100+ countries for a period of 1840-2015 each)&quot;</bucket>
+              <bucket>&quot;[OC] Estimated ROI of the Marvel Cinematic Universe Films&quot;</bucket>
+              <bucket>&quot;[OC] Do countries with more \% of vegetarians eat more meat per year?&quot;</bucket>
+              <bucket>&quot;[OC] Distribution of Programming Languages among Popular Github Projects (&gt;10K stars)&quot;</bucket>
+              <bucket>&quot;[OC] Distribution of March Madness Scores from Randomized Picks (Monte Carlo Simulation)&quot;</bucket>
+              <bucket>&quot;[OC] Deleted Frontpage Reddit Posts from July 19, 2018 to March 29, 2019&quot;</bucket>
+              <bucket>&quot;[OC] Data on my infant&apos;s feeding frequency and duration&quot;</bucket>
+              <bucket>&quot;[OC] Counted the amount of umm&apos;s our lecturer says during a session (90 mins)&quot;</bucket>
+              <bucket>&quot;[OC] Count of names in Harry Potter and the Sorcerer&apos;s Stone&quot;</bucket>
+              <bucket>&quot;[OC] Comparison of captured pieces across 275,000 games of chess&quot;</bucket>
+              <bucket>&quot;[OC] Comic Book Characters over the years&quot;</bucket>
+              <bucket>&quot;[OC] College Graduation Rates in the United States&quot;</bucket>
+              <bucket>&quot;[OC] CO2 emissions by country 2017, based on their share of CO2 emissions&quot;</bucket>
+              <bucket>&quot;[OC] Changing Home Values by County in the US&quot;</bucket>
+              <bucket>&quot;[OC] Calorie count of some Healthy High-Calorie Foods&quot;</bucket>
+              <bucket>&quot;[OC] Breakdown of the cosmetic market worldwide from 2011 to 2018, by product category&quot;</bucket>
+              <bucket>&quot;[OC] Bivariate maps with ggplot2 and sf&quot;</bucket>
+              <bucket>&quot;[OC] Beresheet&apos;s Trajectory to the Moon&quot;</bucket>
+              <bucket>&quot;[OC] Average Weekly Bike Traffic in Seattle by Counting Station&quot;</bucket>
+              <bucket>&quot;[OC] Average Margin of Victory in Presidential Elections 2000-2016 by State&quot;</bucket>
+              <bucket>&quot;[OC] Average Album Cover of all my Likes on SoundCloud (Unedited, Enhanced: Contrast, Enhanced: Shadows) [3*500x500]&quot;</bucket>
+              <bucket>&quot;[OC] Are we living in the golden age of anime? Fans think so.&quot;</bucket>
+              <bucket>&quot;[OC] Animated: World’s Richest Billionaires from 2000 to 2019&quot;</bucket>
+              <bucket>&quot;[OC] Analysis of Raptor population Density in the United States for 2018 iNaturalist observations&quot;</bucket>
+              <bucket>&quot;[OC] Amount of medieval universities in Europe&quot;</bucket>
+              <bucket>&quot;[OC] All Countries by Number of Nuclear Weapons (1945-2014)&quot;</bucket>
+              <bucket>&quot;[OC] A Visual Explanation of Statistical Testing&quot;</bucket>
+              <bucket>&quot;[OC] A Sankey diagram showing how I spent my money in 2018.&quot;</bucket>
+              <bucket>&quot;[OC] A look at 100 apps from China and the personal information they collect&quot;</bucket>
+              <bucket>&quot;[OC] A collection of geographic data extracted along a transect from Scandinavia to North Africa (70°N,9°E to 35°N,9°E).&quot;</bucket>
+              <bucket>&quot;[OC] \# of police shooting in the US as of Valentine&apos;s Day 2019&quot;</bucket>
+              <bucket>&quot;[OC] **Updated** Wind Turbine efficiency map&quot;</bucket>
+              <bucket>&quot;[OC] 2019 Formula 1 Analysis Vizualisation&quot;</bucket>
+              <bucket>&quot;[OC] 2018 F1 Constructors Standings&quot;</bucket>
+              <bucket>&quot;[OC] 70 Years of Global Temperature Anomalies in 10 Seconds&quot;</bucket>
+              <bucket>&quot;[OC] 10yearchallenge: Biggest and lowest percentage change in CO2 emissions&quot;</bucket>
+              <bucket>&quot;[OC] 10 Years of MCU at the box office, graphed&quot;</bucket>
+              <bucket>&quot;[OC] 3 Awesome Visualization Techniques for FIFA 2019 Players Dataset&quot;</bucket>
+              <bucket>&quot;[Information is beautiful] What makes you live longer - Awesome chart !&quot;</bucket>
+              <bucket>&quot;[Battle] DataViz Battle for the month of April 2019: Visualize the April Fool&apos;s Prank for 2019-04-01 on /r/DataIsBeautiful&quot;</bucket>
+              <bucket>&quot;\&quot;Insure the car\&quot; she said... \&quot;Don&apos;t overpay\&quot; she said... [OC]&quot;</bucket>
+              <bucket>&quot;1903 Visualization \&quot;Vienna throughout the 19th century by population, country of origin, area &amp; districts\&quot; [Prof. A.L.Hickmann]&quot;</bucket>
+              <bucket>&quot;87 Days of WWII Combat in Normandy&quot;</bucket>
+              <bucket>&quot;70\% of French people drive to work, even for less than 1km&quot;</bucket>
+              <bucket>&quot;31 March 2019 Turkish Local Election results resized according to winner’ vote count [OC]&quot;</bucket>
+              <bucket>&quot;30 years of The Internet. Thank you, Internet!&quot;</bucket>
+              <bucket>&quot;30 years of international tourist arrivals to Brazil [OC]&quot;</bucket>
+              <bucket>&quot;20 Most Popular Female Names from 1880 to 2017&quot;</bucket>
+              <bucket>&quot;🍺 worldwide beer search queries and revenue are highly correlated [OC]&quot;</bucket>
+              <bucket>&quot;World Prevalence of HIV (AIDS) - 2004 to 2014 [OC]&quot;</bucket>
+              <bucket>&quot;World Happiness Report, 2019&quot;</bucket>
+              <bucket>&quot;With more organic farms, is pesticide use starting to slow down? [OC]&quot;</bucket>
+              <bucket>&quot;Will your Kickstarter campaign be successful? [OC]&quot;</bucket>
+              <bucket>&quot;Who are the Greener Citizens? [OC]&quot;</bucket>
+              <bucket>&quot;Which neighborhoods are getting richer and which are getting poorer? - Low Income Displacement and Concentration in US Census Tracts 2000-2016&quot;</bucket>
+              <bucket>&quot;Which maths is trending? Top 7 math works from open access arXiv.org that have ever been trending on Twitter since November 25, 2017&quot;</bucket>
+              <bucket>&quot;Which European Football League is More Competitive? [OC]&quot;</bucket>
+              <bucket>&quot;Where to go holiday in the US [OC]&quot;</bucket>
+              <bucket>&quot;Where do the signatures for the petition to stop Brexit come from?&quot;</bucket>
+              <bucket>&quot;What Percentage of Americans Think Sex Before Marriage is “Always Wrong”? [OC]&quot;</bucket>
+              <bucket>&quot;What is the greenest country in the world?&quot;</bucket>
+              <bucket>&quot;We created an interactive visualization of the number of votes received by the selected gifs in r/sequence (link in comments). [OC]&quot;</bucket>
+              <bucket>&quot;Voting results of the Dutch Provincial Elections (indirect Senate elections) per polling place, 20 March 2019&quot;</bucket>
+              <bucket>&quot;Voting patterns in last night’s Brexit Indicative Votes in U.K. Parliament&quot;</bucket>
+              <bucket>&quot;Viz of Thrones: An interactive map and visualization of Game of Thrones [OC]&quot;</bucket>
+              <bucket>&quot;Visualizing the History of Fugazi&quot;</bucket>
+              <bucket>&quot;Visualizing the Growth of a $100 Investment in the S&amp;P 500 During Every 20-Year Period Since 1928&quot;</bucket>
+              <bucket>&quot;Visualizing New York City Weapon Crimes [OC]&quot;</bucket>
+              <bucket>&quot;Visualizing Modern Day Slavery Around the Globe&quot;</bucket>
+              <bucket>&quot;Visualization of the top 10 crypto assets by market cap, from crypto’s early days until today. Source: Datalight&quot;</bucket>
+              <bucket>&quot;Visualization of Points Scored in NCAA Basketball Finals Yesterday [OC]&quot;</bucket>
+              <bucket>&quot;Visual guide to UK MP&apos;s voting preference in last night&apos;s indicative votes [album in comments] [OC]&quot;</bucket>
+              <bucket>&quot;Visual Graph detailing the real life price of &apos;Reward&apos; Challenges in FUT 19 (FIFA19)&quot;</bucket>
+              <bucket>&quot;Using Machine Learning to Predict NCAA March Madness Winners&quot;</bucket>
+              <bucket>&quot;USA Snow Storms Visualised [OC]&quot;</bucket>
+              <bucket>&quot;US Olympic Medal Winners Age and Height Pre and Post 1975&quot;</bucket>
+              <bucket>&quot;US income growth for 1946-80 and 1980-2014&quot;</bucket>
+              <bucket>&quot;Unit sales of video game consoles world wide from 2006 to 2018 (in million) [OC]&quot;</bucket>
+              <bucket>&quot;u/DaneKevinCook collected some awesome data on the game team fortress 2&quot;</bucket>
+              <bucket>&quot;U.S. Strikes in Somalia&quot;</bucket>
+              <bucket>&quot;U.S. states ranked by fiscal condition between 2006 and 2016 [OC]&quot;</bucket>
+              <bucket>&quot;Tottenham Hotspur World Record Profit Breakdown 2017/2018 [OC]&quot;</bucket>
+              <bucket>&quot;Total Annual Loss of Bee Colonies in Pennsylvania [OC]&quot;</bucket>
+              <bucket>&quot;Topics of April Fool&apos;s Posts (LDA) [OC]&quot;</bucket>
+              <bucket>&quot;Top Cricket ODI Batsman 1971-2018.&quot;</bucket>
+              <bucket>&quot;Top Companies Software Engineers Experiences [OC]&quot;</bucket>
+              <bucket>&quot;Top 20 Most Popular Songs (2000-2010) Data Visualization [OC]&quot;</bucket>
+              <bucket>&quot;Top 15 Cricketers Ranked By Total Test Runs (1969 - 2019)&quot;</bucket>
+              <bucket>&quot;Top 10 national football teams in the world, taking both men&apos;s and women&apos;s rankings into account [OC]&quot;</bucket>
+              <bucket>&quot;Top 10 Most Popular Social Media Platforms (2014-2019)&quot;</bucket>
+              <bucket>&quot;TOP 10 Mobile Vendor Marker Share USA (2010-2019)[OC]&quot;</bucket>
+              <bucket>&quot;Top 10 countries by inflation rate (1980-2018)&quot;</bucket>
+              <bucket>&quot;Top 10 Countries By Average income (1900-2019)&quot;</bucket>
+              <bucket>&quot;Top 5 Health Conditions affecting Europeans. [OC]&quot;</bucket>
+              <bucket>&quot;Time Lapse Maps of Residential Property Growth North of Chicago [OC]&quot;</bucket>
+              <bucket>&quot;This year is the year Mobile phones surpass TV.&quot;</bucket>
+              <bucket>&quot;This New York Times quiz compares your dialect against survey data to determine where you grew up. Heat maps are included with each question.&quot;</bucket>
+              <bucket>&quot;This map uses the Manchester Metrolink to show varying levels of voter turnout across Manchester.&quot;</bucket>
+              <bucket>&quot;This is how Linear Regression finds the Best Fit Line using Gradient Descent [OC]&quot;</bucket>
+              <bucket>&quot;This animation shows how the colors in images from Hubble Space Telescope relate to particular chemical elements in distant nebulae through spectroscopy&quot;</bucket>
+              <bucket>&quot;There are over 200 stablecoin projects and over 40 central banks researching the topic [OC]&quot;</bucket>
+              <bucket>&quot;The US government&apos;s web traffic.&quot;</bucket>
+              <bucket>&quot;The top ten longest-running scripted TV shows ever (on the left) compared to the top ten longest-running newspaper comic strips (on the right) by length in years. [OC] (x-post from r/comicstriphistory)&quot;</bucket>
+              <bucket>&quot;The time I spend on my laptop for each charge cycle [OC]&quot;</bucket>
+              <bucket>&quot;The Story Of The NBA Regular Season In 9 Charts&quot;</bucket>
+              <bucket>&quot;The Sneakernet: Towards A Much Faster Internet&quot;</bucket>
+              <bucket>&quot;The Popularity of Baby Names by US State&quot;</bucket>
+              <bucket>&quot;The most spoken languages worldwide (native speakers in millions) [OC]&quot;</bucket>
+              <bucket>&quot;The ketogenic diet: Not just another hipster diet [OC]&quot;</bucket>
+              <bucket>&quot;The deadliest countries to drive in in the EU based on deaths per million citizens - data originally published bt European Commission&quot;</bucket>
+              <bucket>&quot;The Color Dynamics of La La Land: The Dominant Colors of each Frame in the Movie&quot;</bucket>
+              <bucket>&quot;The Chinese are the greenest citizens?! [OC]&quot;</bucket>
+              <bucket>&quot;The changing house old age range, 1900 –2017 [OC]&quot;</bucket>
+              <bucket>&quot;The CDC&apos;s Opioid Prescribing Rate Map&quot;</bucket>
+              <bucket>&quot;Tesla autopilot vs manual&quot;</bucket>
+              <bucket>&quot;Temperature and climate changes has worsened global inequality&quot;</bucket>
+              <bucket>&quot;Tableau Viz of the Week: Visualizing Reddit Spelling Mistakes&quot;</bucket>
+              <bucket>&quot;Tableau Map of 2016 Presidential Election Results by County&quot;</bucket>
+              <bucket>&quot;Super cool visualization from Uber on their NYC data (see end of the article)&quot;</bucket>
+              <bucket>&quot;Summer 2019 Temperatures Could be Hotter Than Average Along Both Coasts and Cooler in the Central U.S. | The Weather Channel&quot;</bucket>
+              <bucket>&quot;Storymap: The Serengeti-Mara squeeze – one of the world’s most iconic ecosystems under pressure. New finding alters our view on what is needed to protect biodiversity&quot;</bucket>
+              <bucket>&quot;Steph Curry Ranks Popcorn [OC]&quot;</bucket>
+              <bucket>&quot;Statistics on how Greek and Cypriot MEPs voted for the EU copyright directive: Greek and Cypriot MEPs had the biggest absentee percentages among all counties in the European parliament. | x-post /r/greece [OC]&quot;</bucket>
+              <bucket>&quot;Stack Overflow Developer Survey 2019&quot;</bucket>
+              <bucket>&quot;Spreadsheet (Eve) Online Infographic i found by u/Lokley. There is no other place other than the eve subreddit i can think of that would appreciate this more&quot;</bucket>
+              <bucket>&quot;Sortraits: Portraits of Sorting Algorithms&quot;</bucket>
+              <bucket>&quot;Similarity map of all women&apos;s pumps on Amazon [OC]&quot;</bucket>
+              <bucket>&quot;Shakespeares of Hip Hop : Rappers and their vocabulary mapped by Matt Daniels&quot;</bucket>
+              <bucket>&quot;Shake Shack vs. In-N-Out locations [OC]&quot;</bucket>
+              <bucket>&quot;Several Pretty Visualizations in CFPB&apos;s Report (Does anyone know how to make charts like these?)&quot;</bucket>
+              <bucket>&quot;Self-driving cars showdown: miles without human input.&quot;</bucket>
+              <bucket>&quot;See how spam donations could be manipulating the 2020 Democrat Candidates fundraising numbers [OC]&quot;</bucket>
+              <bucket>&quot;Running Statistics for Critical Role Campaign 2&quot;</bucket>
+              <bucket>&quot;Revealed: The Hidden Geography of London&apos;s Cycle Hire Scheme&quot;</bucket>
+              <bucket>&quot;Remembering the Christchurch Victims [OC]&quot;</bucket>
+              <bucket>&quot;Reddit GOT Season 8 Prediction Data [OC]&quot;</bucket>
+              <bucket>&quot;Reddit April fool&apos;s posts and comments [OC]&quot;</bucket>
+              <bucket>&quot;Racing bar chart - German Bundesliga teams and their expenses for new players&quot;</bucket>
+              <bucket>&quot;r/bodybuilding is posting to&quot;</bucket>
+              <bucket>&quot;Property prices around the world in 2018 compared - Interactive map&quot;</bucket>
+              <bucket>&quot;President Trump: Percent of Tweets containing top keywords (“Vote”, “America”, “Obama”, “Job”) [OC]&quot;</bucket>
+              <bucket>&quot;Poor Neighborhoods Hit Hardest by Asset Forfeiture in Chicago, Data Shows&quot;</bucket>
+              <bucket>&quot;Plot of Gini Index of shot distribution for three teams in NBA this season [OC]&quot;</bucket>
+              <bucket>&quot;Piechart of the most used words in the Muller report [OC]&quot;</bucket>
+              <bucket>&quot;PGA Career earnings 1983-2018&quot;</bucket>
+              <bucket>&quot;Percentages of Speakers of Indigenous Languages in Mexico - sorted by language, age, sex, and risk of extinction&quot;</bucket>
+              <bucket>&quot;Percentage of Households in Each Income Level&quot;</bucket>
+              <bucket>&quot;Percentage of Americans with passports over time [OC]&quot;</bucket>
+              <bucket>&quot;Pathways to lower carbon emissions by 2050 in Australia to keep average global temperature rise below 2C&quot;</bucket>
+              <bucket>&quot;Overlooked Stars - 2018 AUDL [OC]&quot;</bucket>
+              <bucket>&quot;Options to resolve the Brexit mess&quot;</bucket>
+              <bucket>&quot;One superwoman and an iconic trio in tennis grand slam tournaments.&quot;</bucket>
+              <bucket>&quot;Number of upvotes given to Reddit posts in the last 3 months (as of 14/4/19) in r/ukpolitics, with the search terms &apos;antisemitism&apos; and &apos;islamophobia&apos; [OC]&quot;</bucket>
+              <bucket>&quot;Nuclear Energy and the Environment [OC]&quot;</bucket>
+              <bucket>&quot;Nova Scotia, Canada Mining Fatalities 1838-1992 [OC]&quot;</bucket>
+              <bucket>&quot;Norway&apos;s $1 trillion wealth fund investments&quot;</bucket>
+              <bucket>&quot;Nonlinear curve fitting using the Levenberg-Marquardt algorithm [OC]&quot;</bucket>
+              <bucket>&quot;Net international investment position [OC]&quot;</bucket>
+              <bucket>&quot;NBA Playoffs Defensive Rating :: Offensive Rating Matchups&quot;</bucket>
+              <bucket>&quot;National MEPs by Climate Stance: Defender, Delayer, or Dinosaur [OC]&quot;</bucket>
+              <bucket>&quot;My first experiment with D3js. Came out pretty well I think so [OC]&quot;</bucket>
+              <bucket>&quot;Murders in Baltimore since 2010 - a re-analysis before vs. after Freddie Gray&quot;</bucket>
+              <bucket>&quot;Murder Rates across the World (2000-2016) [OC]&quot;</bucket>
+              <bucket>&quot;most visited site per type [OC]&quot;</bucket>
+              <bucket>&quot;Most violent cities in the world&quot;</bucket>
+              <bucket>&quot;Most prolific goalscorers of the last 20 years&quot;</bucket>
+              <bucket>&quot;Most Popular Facebook Games (Do you still play them?) [OC]&quot;</bucket>
+              <bucket>&quot;Most MOTM Awards in Europe since 2010 | Horizontal Bar Graph growing over time intervals [OC] Source: whoscored.com&quot;</bucket>
+              <bucket>&quot;Most common female names in Denmark [OC]&quot;</bucket>
+              <bucket>&quot;More ugly assignment data, halfway through marking [OC]&quot;</bucket>
+              <bucket>&quot;Million Lines of Code&quot;</bucket>
+              <bucket>&quot;Measles in Europe [OC]&quot;</bucket>
+              <bucket>&quot;Match.com Gender Ratios by City and Age Groups [OC]&quot;</bucket>
+              <bucket>&quot;March Madness Historical Matchup Results (1985 - 2019) [OC]&quot;</bucket>
+              <bucket>&quot;Mapping United States City Population 1790-2010 - With Instructions on How to Create a Bar Chart Race in R [OC]&quot;</bucket>
+              <bucket>&quot;Mapping San Francisco&apos;s Human Waste Challenge - 132,562 Cases Reported In The Public Way Since 2008&quot;</bucket>
+              <bucket>&quot;Mapping Preferences over Brexit in the House of Commons&quot;</bucket>
+              <bucket>&quot;Mapping pot legalization politics: Not just red vs. blue&quot;</bucket>
+              <bucket>&quot;Mapping Brexit - Monday&apos;s Indicative &amp; Withdrawal Agreement Votes&quot;</bucket>
+              <bucket>&quot;Mapping 87 days of combat in Normandy.&quot;</bucket>
+              <bucket>&quot;Map of the Cypriot Presidential Election 2018 - First Round [OC]&quot;</bucket>
+              <bucket>&quot;Map of Subreddits by Commenters&quot;</bucket>
+              <bucket>&quot;List of Physical Visualizations and Related Artifacts&quot;</bucket>
+              <bucket>&quot;Lake, River, Spring, Pond, Bay and Swamp [OC]&quot;</bucket>
+              <bucket>&quot;Job openings rate, by industry [OC]&quot;</bucket>
+              <bucket>&quot;Job openings and hiring trends in the US economy. [OC]&quot;</bucket>
+              <bucket>&quot;Jill Pelto creates paintings based on graphs of data on the environmental effects of climate change.&quot;</bucket>
+              <bucket>&quot;ISS crew by country 🇺🇸🇷🇺🇯🇵🇪🇺🇨🇦 [OC]&quot;</bucket>
+              <bucket>&quot;Interpretation of the World Happiness Report, 2019&quot;</bucket>
+              <bucket>&quot;Intergenerational Wealth Mobility and Racial Inequality&quot;</bucket>
+              <bucket>&quot;Interactive tool shows which constituencies had the lowest turnout in 2017&quot;</bucket>
+              <bucket>&quot;Instagram accounts with the most followers worldwide 2019&quot;</bucket>
+              <bucket>&quot;Infographic on the effect of climate change on the world of Ice &amp; Snow [OC] made in Tableau &amp; Adobe Illustrator&quot;</bucket>
+              <bucket>&quot;India elections: All you need to know&quot;</bucket>
+              <bucket>&quot;Increasing proportion of disqualified votes in Pakistan Elections. One dot is one constituency. Turnout on X-axis. \#ddj [OC]&quot;</bucket>
+              <bucket>&quot;Improvement in player&apos;s rank in 5300 UNO matches [OC]&quot;</bucket>
+              <bucket>&quot;Ideological leaning of newsfeeds of U.S. political elites and participants of a small survey on Twitter [OC]&quot;</bucket>
+              <bucket>&quot;I plotted the average favourite count for twitter user @year_progress, who tweets our current percentage through the year. I shouldn&apos;t have been surprised at the (nearly) most popular date, 9th September. [OC]&quot;</bucket>
+              <bucket>&quot;How various countries and regions are faring in their treatment of women [OC]&quot;</bucket>
+              <bucket>&quot;How Old Will The Average Person Be In 2100 ?&quot;</bucket>
+              <bucket>&quot;How Old Are Newlyweds in the United State? [OC]&quot;</bucket>
+              <bucket>&quot;How often did photos on Reuter&apos;s IG go viral? Was it skill or luck? [OC]&quot;</bucket>
+              <bucket>&quot;How my friend spend his allowance per day [OC]&quot;</bucket>
+              <bucket>&quot;How much delicacy I eat in a month&quot;</bucket>
+              <bucket>&quot;How are Women doing in media ? The case of France [OC]&quot;</bucket>
+              <bucket>&quot;How are Fortune Magazine&apos;s Stock Picks for 2019 Doing? [OC]&quot;</bucket>
+              <bucket>&quot;How America pronounces 122 phrases (University of Wisconsin dialect survey)&quot;</bucket>
+              <bucket>&quot;How alcohol prices and sales volumes have changed since 2009 - Colin Angus, University of Sheffield&quot;</bucket>
+              <bucket>&quot;Historic Greenhouse Gas Atmospheric Concentrations, from the IPCC 2013, The Physical Science Basis&quot;</bucket>
+              <bucket>&quot;Here&apos;s all of the ways you could win my office pool after the Elite Eight [OC]&quot;</bucket>
+              <bucket>&quot;Here are the fastest growing and shrinking counties in America&quot;</bucket>
+              <bucket>&quot;Happiness and Health&quot;</bucket>
+              <bucket>&quot;Growing heat pump adoption in Canada - how does the technology work? [OC]&quot;</bucket>
+              <bucket>&quot;Global Mobile Internet Traffic Share [OC]&quot;</bucket>
+              <bucket>&quot;Global decline of early childhood mortality rates [OC]&quot;</bucket>
+              <bucket>&quot;Geographic distribution of U.S. profits abroad&quot;</bucket>
+              <bucket>&quot;Game of Thrones: Screen Time per Character, per Episode (Seasons 1-7) [OC]&quot;</bucket>
+              <bucket>&quot;Game of Thrones Bar Chart Race: screen time per character, per episode, per season [OC]&quot;</bucket>
+              <bucket>&quot;For medical school, matriculations have not kept pace with enrollment. It&apos;s harder than ever to get into medical school [OC]&quot;</bucket>
+              <bucket>&quot;First 10 Million Digits of PI to Letters [OC]&quot;</bucket>
+              <bucket>&quot;Expenses on my trip to Hueco Tanks [OC]&quot;</bucket>
+              <bucket>&quot;Expected percentage of the 2015 electorate that have signed the Revoke Article 50 petition, given the referendum result, as of 25/03/19 [OC]&quot;</bucket>
+              <bucket>&quot;Every sample in Girl Talk&apos;s mash-up album, &apos;Night Ripper&apos; [OC]&quot;</bucket>
+              <bucket>&quot;Every nuclear bomb explosion in history&quot;</bucket>
+              <bucket>&quot;Earthquake risk in the US[OC]&quot;</bucket>
+              <bucket>&quot;Dude Perfect Wins and Team Wins [OC]&quot;</bucket>
+              <bucket>&quot;Dog and cat ownership&quot;</bucket>
+              <bucket>&quot;Does Social Media Cause Anxiety?&quot;</bucket>
+              <bucket>&quot;Distribution of the Walser German minority in northwestern Italy, 2001 [OC]&quot;</bucket>
+              <bucket>&quot;Distribution of crania circumferences (cm) from a clinic in The Netherlands (N=151) [OC]&quot;</bucket>
+              <bucket>&quot;Diabetes prevalence (\% of population ages 20 to 79)&quot;</bucket>
+              <bucket>&quot;Detailed maps of urban heat island effects in Washington, DC, and Baltimore&quot;</bucket>
+              <bucket>&quot;Demographics of Brexit (BBC)&quot;</bucket>
+              <bucket>&quot;Defining how happy my engineering job makes me [it&apos;s slightly unhappier]&quot;</bucket>
+              <bucket>&quot;Deaths in Major Wars&quot;</bucket>
+              <bucket>&quot;Data Visualisation for the Revoke Article50 petition [OC]&quot;</bucket>
+              <bucket>&quot;Darkness Into Light Locations [OC]&quot;</bucket>
+              <bucket>&quot;Current State of the Sea Ice Cover&quot;</bucket>
+              <bucket>&quot;Current and potential energy ratings of houses in England and Wales[OC]&quot;</bucket>
+              <bucket>&quot;Cuba&apos;s Yearly Food Supplies from 1961-2013 [OC]&quot;</bucket>
+              <bucket>&quot;Crimes Against Women in India-2015&quot;</bucket>
+              <bucket>&quot;Countries ordered by population&quot;</bucket>
+              <bucket>&quot;Comparing word usage in the Mueller and Starr reports [OC]&quot;</bucket>
+              <bucket>&quot;China&apos;s total investment in Africa&quot;</bucket>
+              <bucket>&quot;Chicago Parking Ticket Visualization&quot;</bucket>
+              <bucket>&quot;Chart: Video Wins Subscribers, Can News Do the Same?&quot;</bucket>
+              <bucket>&quot;Chart: The Happiest Countries in the World&quot;</bucket>
+              <bucket>&quot;Changes in the distribution of body mass index (BMI) between 1976-1980 and 2005-2006 among U.S. adults aged 20-74.&quot;</bucket>
+              <bucket>&quot;CDC Launches New Autism Data Visualization Tool&quot;</bucket>
+              <bucket>&quot;Case Study Archives&quot;</bucket>
+              <bucket>&quot;Cap hits in NHL season 18-19 by position [OC]&quot;</bucket>
+              <bucket>&quot;Canada&apos;s most populous cities over time&quot;</bucket>
+              <bucket>&quot;Buenos Aires subway passenger flow [OC]&quot;</bucket>
+              <bucket>&quot;Breakdown of race/gender of U.S. Senators [OC]&quot;</bucket>
+              <bucket>&quot;Bivariate maps with ggplot2 and sf&quot;</bucket>
+              <bucket>&quot;Bitcoin transactions are up 57\% since the beginning of 2019&quot;</bucket>
+              <bucket>&quot;Automatic Number Plate Analysis of a route into the City of Bath, UK: Vehicles Per Hour, Time of Day, Time Taken [OC]&quot;</bucket>
+              <bucket>&quot;Animation showing how the distribution over Earth&apos;s surface of annual average temperature anomalies has been shifting due to global warming since 1850 @rarohde (Source: Berkeley Earth, average annual temperatures)&quot;</bucket>
+              <bucket>&quot;Animated time map of all F1 winners&quot;</bucket>
+              <bucket>&quot;Animated map showing the change in greenhouse gas emissions / person since 1850, relative to the boundaries of modern countries.&quot;</bucket>
+              <bucket>&quot;Analysis of text adventure games&quot;</bucket>
+              <bucket>&quot;An average game in the NBA: 2015-2019 [OC]&quot;</bucket>
+              <bucket>&quot;Americans are getting more miserable. There’s data to prove it.&quot;</bucket>
+              <bucket>&quot;Amazingly comprehensive and interactive breakdown of violent extremist perpetrators in the US&quot;</bucket>
+              <bucket>&quot;Altcoins Bar Chart Race Market Cap Visualization&quot;</bucket>
+              <bucket>&quot;All the restaurants in Bangalore by Zomato.&quot;</bucket>
+              <bucket>&quot;All the characters on The Wire and their connections, mapped by @BenGarvey&quot;</bucket>
+              <bucket>&quot;All Locations Where Human Waste Has Been Reported in San Francisco | Open the Books&quot;</bucket>
+              <bucket>&quot;All Blacks Rugby - Matches played vs tries scored from 1986 to 2018 [OC]&quot;</bucket>
+              <bucket>&quot;Addition to Track and Peak Intensity of US Tornadoes, 1950-2017 [OC]&quot;</bucket>
+              <bucket>&quot;A visual explainer of the periodic table.&quot;</bucket>
+              <bucket>&quot;A spreadsheet I&apos;ve been working on. The Colorado Rockies win/loss record by month, for each year they&apos;ve been playing. With graphs, too!&quot;</bucket>
+              <bucket>&quot;A rotating globe showing measles incidents per 1.000.000 population&quot;</bucket>
+              <bucket>&quot;A live-updating visual map of sunlight on earth [OC]&quot;</bucket>
+              <bucket>&quot;A Game if Thrones themed Alluvial diagram&quot;</bucket>
+              <bucket>&quot;A comparison of the kinks in my friend group [OC]&quot;</bucket>
+              <bucket>&quot;A beautiful spray chart of all of the Chicago Cubs’ Kyle Schwarber’s HRs since 2015&quot;</bucket>
+              <bucket>&quot;\#DataOfThrones&quot;</bucket>
+              <bucket>&quot;\\Words in the \&quot;Info We Trust\&quot; book: A look at how often words appear together on the same page [OC]&quot;</bucket>
+              <bucket>&quot;[Question] How was this visualization by The Pudding created?&quot;</bucket>
+              <bucket>&quot;[PDF] The Amazon Echo as an anatomical map of human labor, data and planetary resources&quot;</bucket>
+              <bucket>&quot;[OC]Philadelphia Median Home Sales Prices by Neighborhood, 2008 to 2019&quot;</bucket>
+              <bucket>&quot;[OC] World Infant Mortality Rates 2014&quot;</bucket>
+              <bucket>&quot;[OC] world countries environmental performance index in an interactive map&quot;</bucket>
+              <bucket>&quot;[OC] Who was the best striker?&quot;</bucket>
+              <bucket>&quot;[OC] Which rich countries have the best vaccination rates?&quot;</bucket>
+              <bucket>&quot;[OC] Which countries identify with the EU flag?&quot;</bucket>
+              <bucket>&quot;[OC] What&apos;s your country&apos;s overshoot day?&quot;</bucket>
+              <bucket>&quot;[OC] What could I do to present this data more effectively?&quot;</bucket>
+              <bucket>&quot;[OC] WASP-127b Light Wave Analysis&quot;</bucket>
+              <bucket>&quot;[OC] Voter Registration and Turnout by Age Group for Each State in the 2016 Presidential Election&quot;</bucket>
+              <bucket>&quot;[OC] Visualizing recent wikipedia revisions of a page using Social Communication Temporal Graphs&quot;</bucket>
+              <bucket>&quot;[OC] Visualising per Capita CO2 Emissions – Criticise the US and Co, Not China&quot;</bucket>
+              <bucket>&quot;[OC] Venture Capital dollars per capita 2017 – 1. Massachusetts 2. California 3. DC&quot;</bucket>
+              <bucket>&quot;[OC] Variation of emerging market national currencies versus USD&quot;</bucket>
+              <bucket>&quot;[OC] USA: Total Household Wealth vs. Free College and Debt Forgiveness (sources and tools in comments)&quot;</bucket>
+              <bucket>&quot;[OC] Top 30 YouTube Channels with Most Days on YouTube Trending (US) from Nov.2017 to June.2018&quot;</bucket>
+              <bucket>&quot;[OC] Top 30 Countries/Regions with Highest Unemployment Rate (1991-2018)&quot;</bucket>
+              <bucket>&quot;[OC] Top 30 Countries by Adults Overweight Percentage&quot;</bucket>
+              <bucket>&quot;[OC] TOP 20 Japanese Brands Ranking History (2009-2019)&quot;</bucket>
+              <bucket>&quot;[OC] Top 15 Countries/Regions by GDP Per Capita, PPP (1990-2017)&quot;</bucket>
+              <bucket>&quot;[OC] Top 15 Countries by Government Debt (1990-2016)&quot;</bucket>
+              <bucket>&quot;[OC] Top 10 Operating System Market Share in Germany (2009 - 2019)&quot;</bucket>
+              <bucket>&quot;[OC] Timeline of Population Policy in Singapore and Population Growth Overview&quot;</bucket>
+              <bucket>&quot;[OC] This chart represents the crates I have earned in Overwatch for almost a year.&quot;</bucket>
+              <bucket>&quot;[OC] The rising housing cost burden in San Jose (CA), by household income&quot;</bucket>
+              <bucket>&quot;[OC] the rise and fall of John Travolta - 1976-2018&quot;</bucket>
+              <bucket>&quot;[OC] The gender gap in annual earnings for every US state in 2017&quot;</bucket>
+              <bucket>&quot;[OC] Statistics about the (dating) subreddit /r/r4r&quot;</bucket>
+              <bucket>&quot;[OC] Sentiment analysis of my personal journal (4 years, 337,000+ words)&quot;</bucket>
+              <bucket>&quot;[OC] Season 5 Formula E Stats &amp; Analysis charts&quot;</bucket>
+              <bucket>&quot;[OC] Revoke Article 50 Petition Graph - Petition Signed Percentage By Constituency, Party and Average Age of Constituency Population. Made using Tableau. Although younger labour constituencies have a high petition signed rate, the middle aged labour constituencies are the polar opposite.&quot;</bucket>
+              <bucket>&quot;[OC] Rethinking how to visualize 80/20-rule type data&quot;</bucket>
+              <bucket>&quot;[OC] PewDiePie dethroned by T-Series? - Most Subscribed YouTubers March 2019&quot;</bucket>
+              <bucket>&quot;[OC] Percentage of Pug-in Electric Vehicle Sales out of Total Car Sales (2013-2018)&quot;</bucket>
+              <bucket>&quot;[OC] Overview of Voter Turnout Among Swing States in Presidential Elections Since 2000&quot;</bucket>
+              <bucket>&quot;[OC] Not sure how beautiful this is, but you can explore almost anything the people in my country do on their day, and it is all statistically representative. Here&apos;s a peek of women in their daily activities. Feel free to explore.&quot;</bucket>
+              <bucket>&quot;[OC] NCAA March Madness Pool Results.&quot;</bucket>
+              <bucket>&quot;[OC] NBA Teams with most Wins since 2000&quot;</bucket>
+              <bucket>&quot;[OC] NBA Stats Visualized&quot;</bucket>
+              <bucket>&quot;[OC] My submission for DataViz March 2019.&quot;</bucket>
+              <bucket>&quot;[OC] My first attempt at visualizing data. Comparing the highest free-kick goal scorers (soccer) of all time.&quot;</bucket>
+              <bucket>&quot;[OC] My budget comparing my current job to the new job I just got hired for! Top left is all debt except car loan paid off, bottom left is ALL DEBT PAID OFF. I&apos;m new to excel, sorry for the mess!&quot;</bucket>
+              <bucket>&quot;[OC] My 2018 Quantified Self Report&quot;</bucket>
+              <bucket>&quot;[OC] Most popular check-in locations on Facebook in summer 2017&quot;</bucket>
+              <bucket>&quot;[OC] Most dangerous sports by injuries&quot;</bucket>
+              <bucket>&quot;[OC] Monthly Google Search Popularity of NY Metro Sports Teams&quot;</bucket>
+              <bucket>&quot;[OC] Mirai-like malware hosts detected by daily share of ports/services targeted&quot;</bucket>
+              <bucket>&quot;[OC] Marginal seats of the 2014 General Elections.&quot;</bucket>
+              <bucket>&quot;[OC] Map of Places Seen in the Marvel Cinematic Universe&quot;</bucket>
+              <bucket>&quot;[OC] Life Expectancy Worldwide (Interactive)&quot;</bucket>
+              <bucket>&quot;[OC] Is the Trump Administration denying H1-B visas?&quot;</bucket>
+              <bucket>&quot;[OC] Interactive topic analysis of redacted Mueller report (LDA)&quot;</bucket>
+              <bucket>&quot;[OC] Interactive network graph of search engines and their data sources&quot;</bucket>
+              <bucket>&quot;[OC] Interactive Data Visualization and Dataset on World Happiness Rankings - 2019&quot;</bucket>
+              <bucket>&quot;[OC] Indo-Pak War(1947-48,1965,1971,1999) Casualties&quot;</bucket>
+              <bucket>&quot;[OC] I plotted the number of Apple hardware releases each year since the company was founded.&quot;</bucket>
+              <bucket>&quot;[OC] How many countries will we need in order to produce the amount of cobalt that went into manufacturing batteries for the 158,000 Tesla Model S cars that have been produced as of 2017?&quot;</bucket>
+              <bucket>&quot;[OC] How far every province in Colombia is from the sea&quot;</bucket>
+              <bucket>&quot;[OC] How can I improve this visualization? 3D scatterplot with custom image&quot;</bucket>
+              <bucket>&quot;[OC] GeoPandas visualisations of geographic area embeddings: https://towardsdatascience.com/location-location-location-ec2cc8a223b1&quot;</bucket>
+              <bucket>&quot;[OC] game of thrones discussion post visualization of word frequency in pre season discuss post&quot;</bucket>
+              <bucket>&quot;[OC] Game of Thrones allegiances chart (per season)&quot;</bucket>
+              <bucket>&quot;[OC] Exploring 1960s British Cinema&quot;</bucket>
+              <bucket>&quot;[Oc] every location on OpenLitterMap.com gets its own unique time series so we can measure how frequently data is uploaded. Available at every county, state and city&quot;</bucket>
+              <bucket>&quot;[OC] European soccer leagues goal distributions&quot;</bucket>
+              <bucket>&quot;[OC] Do you know what is the company which has the biggest market cap through 1997-2018?&quot;</bucket>
+              <bucket>&quot;[OC] Differences Between Popular and Electoral Vote Percentages Among Democrats and Republicans in Presidential Elections from 1976 - 2016&quot;</bucket>
+              <bucket>&quot;[OC] Detailed Voting History (in Percentages) of Swing States for the Past Five Presidential Elections&quot;</bucket>
+              <bucket>&quot;[OC] Democracy index vs GDP Per Capita&quot;</bucket>
+              <bucket>&quot;[OC] Cumulative Number of Films in Various Major Movie Franchises over time&quot;</bucket>
+              <bucket>&quot;[OC] Concentration of championships in colombian soccer&quot;</bucket>
+              <bucket>&quot;[OC] Changing of the Seasons&quot;</bucket>
+              <bucket>&quot;[OC] Change in Voter Turnout by State, Based on Preceding Presidential Election&quot;</bucket>
+              <bucket>&quot;[OC] Brexit - Indicative Votes Results&quot;</bucket>
+              <bucket>&quot;[OC] Breakdown of signatures on Revoke Art. 50 ePetition (recorded @4.2m signatures)&quot;</bucket>
+              <bucket>&quot;[OC] Average duration of viewing Christchurch Shooting video by State - NO LINK TO VIDEO, JUST A GRAPH WITH STATS&quot;</bucket>
+              <bucket>&quot;[OC] amount of inbox messages for a GOT SNL video towards the GOT Season 8 premiere&quot;</bucket>
+              <bucket>&quot;[OC] Airlytics - Airline Analytics Platform&quot;</bucket>
+              <bucket>&quot;[OC] /u/GallowBoob&apos;s karma over the past week&quot;</bucket>
+              <bucket>&quot;[OC] /u/GallowBoob&apos;s karma over the past ~20 days&quot;</bucket>
+              <bucket>&quot;[OC] /r/DataIsBeautiful April Fool&apos;s Prank&quot;</bucket>
+              <bucket>&quot;[OC] 2017 vs. 2018 federal income tax calculations. Tax (solid line) and effective tax rate (dotted line) vs. AGI.&quot;</bucket>
+              <bucket>&quot;[OC] 12 Weeks of Change&quot;</bucket>
+              <bucket>&quot;[OC] 10 Years of Disney (2008-2018)&quot;</bucket>
+              <bucket>&quot;[OC] 1 Man, 51 Skills Learned. Mike Boyd&apos;s Skills Visualized.&quot;</bucket>
+              <bucket>&quot;[Interactive Notebook] Frequentist A/B testing from Scratch&quot;</bucket>
+              <bucket>&quot;[German] How ridiculously fast the Germans drive on the highways&quot;</bucket>
+              <bucket>&quot;“Revoke Article 50 and remain in the EU\&quot; - watch petition signer numbers increase in graph format!&quot;</bucket>
+              <bucket>&quot;2019 World Press Freedom Index | Reporters Without Borders&quot;</bucket>
+              <bucket>&quot;2018 World Happiness Report (djbarnwal)&quot;</bucket>
+              <bucket>&quot;2018 - Ontario Sunshine list - Public sector salary disclosure [OC]&quot;</bucket>
+              <bucket>&quot;500 most commonly used words over 11 years of journaling [OC]&quot;</bucket>
+              <bucket>&quot;40 years of Console Wars [Video]&quot;</bucket>
+              <bucket>&quot;35 years of the world&apos;s changing economy visualized&quot;</bucket>
+              <bucket>&quot;13,000-year reconstruction of summer temperature anomalies in Northern Canada [OC]&quot;</bucket>
+              <bucket>&quot;3 Awesome Visualization Techniques for every dataset [OC]&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0f0qqte13ofpzn1ekt7n10axc3x3].[sum:Category:qk]' num-steps='6' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#f2e0da</color>
+                <color>#f3cfc3</color>
+                <color>#f5beab</color>
+                <color>#f6ac93</color>
+                <color>#f89b7c</color>
+                <color>#f98963</color>
+                <color>#fa774b</color>
+                <color>#fc6532</color>
+                <color>#fd5219</color>
+                <color>#ff4000</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0f0qqte13ofpzn1ekt7n10axc3x3].[sum:Category:qk]' />
+              <lod column='[federated.0f0qqte13ofpzn1ekt7n10axc3x3].[sum:KARMA COUNT:qk]' />
+              <lod column='[federated.0f0qqte13ofpzn1ekt7n10axc3x3].[none:POST TITLE:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{488B6305-01F8-4FCF-BF51-3B14C4F1FB3F}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0f0qqte13ofpzn1ekt7n10axc3x3].[sum:Category:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0f0qqte13ofpzn1ekt7n10axc3x3].[none:POST TITLE:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3CD7D189-E23D-4550-9735-383BE9F3E3FD}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+      YgEAgKdYAADgKRYAAHiKBQAAnmIBAICnWAAA4CkWAAB4igUAAJ5iAQCAp1gAAOApFgAAeIoF
+      AACeYgEAgKdYAADgKRYAAHiKBQAAnmIBAICnWAAA4CkWAAB4igUAAJ5iAQCAp1gAAOApFgAA
+      eIoFAACeYgEAgKdYAADgKRYAAHiKBQAAnmIBAICnWAAA4CkWAAB4igUAAJ5iAQCAp1gAAOAp
+      FgAAeIoFAACeYgEAgKdYAADgKRYAAHiKBQAAnmIBAICnWAAA4CkWAAB4igUAAJ5iAQCAp1gA
+      AOApFgAAeIoFAACeYgEAgKdYAADgKRYAAHiKBQAAnmIBAICnWAAA4CkWAAB4igUAAJ5iAQCA
+      p1gAAOApFgAAeIoFAACeYgEAgKdYAADgKRYAAHiKBQAAnmIBAICnWAAA4CkWAAB4igUAAJ5i
+      AQCAp1gAAOApFgAAeIoFAACeYgEAgKdYAADgKRYAAHiKBQAAnmIBAICnWAAA4CkWAAB4igUA
+      AJ5iAQCAp1gAAOApFgAAeIoFAACeYgEAgKdYAADgKRYAAHiKBQAAnmIBAICnWAAA4CkWAAB4
+      igUAAJ5iAQCAp1gAAOApFgAAeIoFAACeYgEAgKdYAADgKRYAAHiKBQAAnmIBAICnWAAA4CkW
+      AAB4igUAAJ5iAQCAp1gAAOApFgAAeIoFAACeYgEAgKdYAADgKRYAAHiKBQAAnmIBAICnWAAA
+      4CkWAAB4igUAAJ5iAQCAp1gAAOApFgAAeIoFAACeYgEAgKdYAADgKRYAAHiKBQAAnmIBAICn
+      WAAA4CkWAAB4igUAAJ5iAQCAp1gAAOApFgAAeIoFAACeYgEAgKdYAADgKRYAAHiKBQAAnmIB
+      AICnWAAA4CkWAAB4igUAAJ5iAQCAp/4/CW3sEYZqvaYAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
